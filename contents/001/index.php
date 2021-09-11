@@ -1,5 +1,5 @@
 <link rel="stylesheet" href="<?php echo $home_url; ?>/web_parts_ty/contents/001/css/style.min.css" );>
-<link rel="stylesheet" href="<?php echo $home_url; ?>/web_parts_ty/contents/001/css/reset.css" );>
+<link rel="stylesheet" href="<?php echo $home_url; ?>/web_parts_ty/contents/001/css/reset.min.css" );>
 
   <!-------------- 
     cont_ty_001
@@ -56,9 +56,6 @@
 
     <!-- 参考サイト
   https://aorino.jp/ -->
-
-
-
 
 
 </body>
