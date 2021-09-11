@@ -1,11 +1,10 @@
-<link rel="stylesheet" href="<?php echo $home_url; ?>/web_parts_ty/contents/001/css/style.min.css" );>
-<link rel="stylesheet" href="<?php echo $home_url; ?>/web_parts_ty/contents/001/css/reset.min.css" );>
+<link rel="stylesheet" href="<?php echo $home_url; ?>/web_parts_ty/contents/002/css/style.min.css" );>
+<link rel="stylesheet" href="<?php echo $home_url; ?>/web_parts_ty/contents/002/css/reset.min.css" );>
 
-<body>
   <!-------------- 
-    cont_parts_y_002
+    cont_y_002
   ---------------->
-  <article class="cont_parts_y_002">
+  <article class="cont_y_002">
     <div class="wrapper">
       <section>
         <a href="">
@@ -32,7 +31,3 @@
 
     <!-- 参考サイト
   http://watanabeshoten.net/ -->
-
-
-</body>
-
