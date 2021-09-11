@@ -49,15 +49,14 @@ column_1_ptn_001
   }
 }
 /* ----------------------------------------------------------------------
-cont_parts_y_006
+cont_ty_006
 ---------------------------------------------------------------------- */
-.cont_parts_y_006 {
-  .conts_wrapper {
+.cont_ty_006 {
+  padding: 100px 24px;
+  .cont_ty_006_wrapper {
     margin: 0 auto;
-    padding: 100px 10px;
     max-width: 1000px;
     @media (max-width: 1200px) {
-      padding: 100px 30px;
       width: 100%;
     }
     @media (max-width: 750px) {
@@ -68,11 +67,11 @@ cont_parts_y_006
       ------------------------------------------*/
     section {
       position: relative;
-      margin: 100px 0;
+      // margin: 100px 0;
+      margin-bottom: 100px;
       a {
         position: relative;
         width: 100%;
-        height: 100%;
         display: block;
         transition: 0.5s;
         color: #000;
@@ -185,7 +184,7 @@ cont_parts_y_006
     /*----------------------------------------- 
       sub_cont
       ------------------------------------------*/
-    .sub_conts_wrapper {
+    .outer {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       gap: 60px 20px;

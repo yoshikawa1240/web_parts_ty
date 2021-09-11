@@ -1,26 +1,11 @@
-<!DOCTYPE html>
-<html lang="ja">
+<link rel="stylesheet" href="<?php echo $home_url; ?>/web_parts_ty/contents/006/css/style.min.css" );>
+<link rel="stylesheet" href="<?php echo $home_url; ?>/web_parts_ty/contents/006/css/reset.min.css" );>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>cont_parts_y_006</title>
-  <link rel="stylesheet" href="./css/reset.css">
-  <link rel="stylesheet" href="./css/style.css">
-  <!-- FontAwesome -->
-  <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
-  <!-- GoogleFont -->
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200;400;500;700;900&display=swap"
-    rel="stylesheet">
-</head>
-
-<body>
   <!-------------- 
-    cont_parts_y_006
+    cont_ty_006
   ---------------->
-  <article class="cont_parts_y_006">
-    <div class="conts_wrapper">
+  <article class="cont_ty_006">
+    <div class="cont_ty_006_wrapper">
       <!----------------------------------------- 
           main_cont
           ------------------------------------------>
@@ -43,7 +28,7 @@
       <!----------------------------------------- 
           sub_cont
           ------------------------------------------>
-      <div class="sub_conts_wrapper">
+      <div class="outer">
         <section>
           <a href="">
             <div class="image">
@@ -114,7 +99,3 @@
 
   <!-- 参考サイト
   https://demo.tcd-theme.com/tcd086/ -->
-
-</body>
-
-</html>
