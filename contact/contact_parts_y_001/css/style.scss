@@ -1,0 +1,162 @@
+/* ----------------------------------------------------------------------
+column_2_ptn_001
+---------------------------------------------------------------------- */
+.column_2_ptn_001 {
+  background: #ebf7ff;
+  .wrapper {
+    margin: 0 auto;
+    padding: 40px;
+    max-width: 1280px;
+    display: grid;
+    grid-template-columns: calc(100% - 360px) 300px;
+    gap: 60px;
+    @media (max-width: 1050px) {
+      display: block;
+    }
+    @media (max-width: 500px) {
+      padding: 20px;
+    }
+    @media (max-width: 400px) {
+      padding: 20px 10px;
+    }
+  }
+}
+.column_2_ptn_001.post_02 {
+  .wrapper {
+    @media (max-width: 850px) {
+      padding: 0;
+    }
+  }
+}
+/* ----------------------------------------------------------------------
+column_1_ptn_001
+---------------------------------------------------------------------- */
+.column_1_ptn_001 {
+  background: #ebf7ff;
+  .wrapper {
+    margin: 0 auto;
+    padding: 40px 0;
+    // max-width: 1200px;
+    @media (max-width: 1050px) {
+      display: block;
+    }
+    @media (max-width: 500px) {
+      padding: 20px;
+    }
+    @media (max-width: 400px) {
+      padding: 20px 10px;
+    }
+  }
+}
+/* ----------------------------------------------------------------------
+contact_parts_y_001
+---------------------------------------------------------------------- */
+.contact_parts_y_001 {
+  padding: 100px 40px;
+  background: #3e3a37;
+  font-weight: bold;
+  color: #fff;
+  @media (max-width: 750px) {
+    padding: 100px 48px;
+  }
+  @media (max-width: 550px) {
+    padding: 100px 24px;
+  }
+  h2 {
+    text-align: center;
+    line-height: 1.5;
+    font-size: 32px;
+    @media (max-width: 750px) {
+      font-size: 24px;
+    }
+  }
+  span {
+    margin-top: 8px;
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    color: #9f9d9b;
+    @media (max-width: 750px) {
+      font-size: 12px;
+    }
+  }
+  .contact_wrapper {
+    margin: 32px auto 0 auto;
+    max-width: 600px;
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    gap: 40px;
+    @media (max-width: 750px) {
+      grid-template-columns: repeat(1 , 1fr);
+      gap: 20px;
+    }
+    section {
+      margin: 0 auto;
+      max-width: 1200px;
+      .left_cont,
+      .right_cont {
+        position: relative;
+        display: block;
+        color: #fff;
+        transition: .3s;
+        &:hover{
+          background: #333;
+        }
+        &::after {
+          content: "1";
+          position: absolute;
+          top: 24px;
+          left: 50%;
+          transform: translateX(-50%);
+          z-index: 1;
+          font-size: 32px;
+          color: #9f9d9b;
+        }
+        .inner {
+          padding: 80px 16px 24px 16px;
+          border: 1px solid #fff;
+          text-align: center;
+          h3 {
+            line-height: 1.5;
+            font-size: 18px;
+          }
+          p {
+            line-height: 2;
+            font-size: 14px;
+          }
+        }
+        span {
+          margin: -1px 0 0 0;
+          padding: 16px;
+          display: block;
+          border: 1px solid #fff;
+          font-size: 16px;
+          color: #fff;
+        }
+      }
+      .right_cont {
+        &::after {
+          content: "2";
+        }
+      }
+    }
+  }
+  .contact_tel{
+    text-align: center;
+    p{
+      margin-bottom: 8px;
+      line-height: 1.5;
+      font-size: 14px;
+      &:nth-of-type(1){
+        margin-top: 56px;
+        font-weight: normal;
+      }
+      &:nth-of-type(2){
+        font-size: 40px;
+      }
+      &:nth-of-type(3){
+        font-weight: normal;
+      }
+    }
+  }
+}

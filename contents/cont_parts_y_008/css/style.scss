@@ -1,0 +1,203 @@
+/* ----------------------------------------------------------------------
+column_2_ptn_001
+---------------------------------------------------------------------- */
+.column_2_ptn_001 {
+  background: #ebf7ff;
+  .wrapper {
+    margin: 0 auto;
+    padding: 40px;
+    max-width: 1280px;
+    display: grid;
+    grid-template-columns: calc(100% - 360px) 300px;
+    gap: 60px;
+    @media (max-width: 1050px) {
+      display: block;
+    }
+    @media (max-width: 500px) {
+      padding: 20px;
+    }
+    @media (max-width: 400px) {
+      padding: 20px 10px;
+    }
+  }
+}
+.column_2_ptn_001.post_02 {
+  .wrapper {
+    @media (max-width: 850px) {
+      padding: 0;
+    }
+  }
+}
+/* ----------------------------------------------------------------------
+column_1_ptn_001
+---------------------------------------------------------------------- */
+.column_1_ptn_001 {
+  background: #ebf7ff;
+  .wrapper {
+    margin: 0 auto;
+    padding: 40px 0;
+    // max-width: 1200px;
+    @media (max-width: 1050px) {
+      display: block;
+    }
+    @media (max-width: 500px) {
+      padding: 20px;
+    }
+    @media (max-width: 400px) {
+      padding: 20px 10px;
+    }
+  }
+}
+/* ----------------------------------------------------------------------
+cont_parts_y_008
+---------------------------------------------------------------------- */
+.cont_parts_y_008 {
+  .wrapper {
+    margin: 0 auto;
+    padding: 95px 0 150px 0;
+    max-width: 1000px;
+    @media (max-width: 1250px) {
+      padding: 100px 50px 150px 50px;
+    }
+    @media (max-width: 600px) {
+      padding: 35px 40px 40px 40px;
+    }
+    @media (max-width: 500px) {
+      padding: 35px 30px 40px 30px;
+    }
+    @media (max-width: 400px) {
+      padding: 35px 10px 40px 10px;
+    }
+    .top {
+      text-align: center;
+      h2 {
+        line-height: 1.4em;
+        font-size: 36px;
+        @media (max-width: 600px) {
+          font-size: 24px;
+        }
+      }
+      .text {
+        margin: 20px 0 0 0;
+        font-size: 16px;
+        @media (max-width: 600px) {
+          font-size: 15px;
+        }
+        p {
+          line-height: 2.4em;
+        }
+      }
+    }
+    .conts {
+      margin: 90px 0 0 0;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2px 0;
+      @media (max-width: 950px) {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      @media (max-width: 600px) {
+        grid-template-columns: repeat(1, 1fr);
+      }
+      a {
+        color: #000;
+        &:hover {
+          color: #1c4f73;
+          img {
+            transform: scale(1.2);
+          }
+          .inner {
+            h3 {
+              background: #3c83b1;
+            }
+          }
+        }
+        .image {
+          position: relative;
+          width: 100%;
+          height: auto;
+          overflow: hidden;
+          &::before {
+            content: "";
+            padding-top: 80%;
+            display: block;
+            @media (max-width: 950px) {
+              padding-top: 50%;
+            }
+            @media (max-width: 600px) {
+              padding-top: 28%;
+            }
+          }
+          img {
+            position: absolute;
+            top: 0%;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: 0.5s;
+          }
+        }
+        .inner {
+          margin: 0 -1px -1px 0;
+          border: 1px solid #ddd;
+          h3 {
+            width: 100%;
+            background: #78adce;
+            text-align: center;
+            line-height: 2.6em;
+            font-size: 22px;
+            color: #fff;
+            transition: 0.3s;
+            @media (max-width: 750px) {
+              line-height: 2.2em;
+              font-size: 20px;
+            }
+            @media (max-width: 500px) {
+              line-height: 1.8em;
+              font-size: 18px;
+            }
+          }
+          p {
+            padding: 20px 30px;
+            height: auto;
+            line-height: 2em;
+            font-size: 16px;
+            @media (max-width: 600px) {
+              padding: 10px 20px;
+            }
+          }
+        }
+      }
+    }
+    .link {
+      margin-top: 60px;
+      text-align: center;
+      @media (max-width: 600px) {
+        margin: 40px 0 0 0;
+      }
+      a {
+        padding: 0 20px;
+        min-width: 270px;
+        height: 60px;
+        display: inline-block;
+        background: #78adce;
+        border: 1px solid #fff;
+        text-align: center;
+        line-height: 60px;
+        font-size: 16px;
+        color: #fff;
+        transition: 0.3s;
+        &:hover {
+          background: #3c83b1;
+        }
+        @media (max-width: 600px) {
+          min-width: 200px;
+          height: 45px;
+          line-height: 45px;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}

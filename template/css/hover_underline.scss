@@ -1,0 +1,226 @@
+.box_underline{
+  display: flex;
+  flex-flow: column;
+  width: 300px;
+  margin: 0 auto;
+
+.hover_underline_001 {
+  margin: 1em;
+  display: block;
+  text-align: center;
+  color: #000;
+
+  position: relative;
+  &::after {
+    position: absolute;
+    bottom: 2px;
+    left: 0;
+    content: "";
+    width: 100%;
+    height: 2px;
+    background: #000;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+  }
+  &:hover::after {
+    bottom: -4px;
+    opacity: 1;
+    visibility: visible;
+  }
+}
+.hover_underline_002 {
+  margin: 1em;
+  display: inline-block;
+  text-align: center;
+  color: #000;
+
+  position: relative;
+  text-decoration: none;
+  &::after {
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    content: "";
+    width: 100%;
+    height: 2px;
+    background: #000;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+  }
+  &:hover::after {
+    bottom: -4px;
+    opacity: 1;
+    visibility: visible;
+  }
+}
+.hover_underline_003 {
+  margin: 1em;
+  display: inline-block;
+  text-align: center;
+  color: #000;
+  position: relative;
+  &::after {
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    content: "";
+    width: 100%;
+    height: 2px;
+    background: #000;
+    transform: scale(0, 1);
+    transform-origin: left top;
+    transition: transform 0.3s;
+  }
+  &:hover::after {
+    transform: scale(1, 1);
+  }
+}
+
+.hover_underline_004 {
+  margin: 1em;
+  display: inline-block;
+  text-align: center;
+  color: #000;
+  position: relative;
+  &::after {
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    content: "";
+    width: 100%;
+    height: 2px;
+    background: #000;
+    transform: scale(0, 1);
+    transform-origin: right top;
+    transition: transform 0.3s;
+  }
+  &:hover::after {
+    transform: scale(1, 1);
+  }
+}
+
+.hover_underline_005 {
+  margin: 1em;
+  display: inline-block;
+  text-align: center;
+  color: #000;
+  position: relative;
+  text-decoration: none;
+  &::after {
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    content: "";
+    width: 100%;
+    height: 2px;
+    background: #000;
+    transform: scale(0, 1);
+    transform-origin: right top;
+    transition: transform 0.3s;
+  }
+  &:hover::after {
+    transform-origin: left top;
+    transform: scale(1, 1);
+  }
+}
+
+.hover_underline_006 {
+  margin: 1em;
+  display: inline-block;
+  text-align: center;
+  color: #000;
+
+  position: relative;
+  text-decoration: none;
+  &::after {
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    content: "";
+    width: 100%;
+    height: 2px;
+    background: #000;
+    transform: scale(0, 1);
+    transform-origin: left top;
+    transition: transform 0.3s;
+  }
+  &:hover::after {
+    transform-origin: right top;
+    transform: scale(1, 1);
+  }
+}
+.hover_underline_007 {
+  margin: 1em;
+  display: inline-block;
+  text-align: center;
+  color: #000;
+
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  &::after {
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    content: "";
+    width: 100%;
+    height: 2px;
+    background: #000;
+    transform: scale(0, 1);
+    transform-origin: center top;
+    transition: transform 0.3s;
+  }
+  &:hover::after {
+    transform: scale(1, 1);
+  }
+}
+.hover_underline_008 {
+  margin: 1em;
+  display: inline-block;
+  text-align: center;
+  color: #000;
+
+  padding: 0 0.1em;
+  background: linear-gradient(lightblue, lightblue) right bottom / 0 0.5em no-repeat;
+
+  transition: background-size 0.4s cubic-bezier(0.215, 0.61, 0.355, 1);
+  &:hover {
+    background-position: left bottom;
+    background-size: 100% 0.5em;
+  }
+}
+.hover_underline_009 {
+  margin: 1em;
+  display: inline-block;
+  text-align: center;
+  color: #000;
+
+  padding: 0 4px;
+  position: relative;
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: -4px;
+    height: 2px;
+    width: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(24, 23, 23, 0.6);
+    transition: 0.4s ease-out all;
+  }
+  &:hover {
+    &::after{
+      width: 100%;
+      transition: 0.5s ease all;
+    }
+  }
+}
+.hover_underline_010 {
+  margin: 1em;
+  display: inline-block;
+  text-align: center;
+  color: #000;
+}
+}

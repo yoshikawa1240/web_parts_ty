@@ -1,0 +1,21 @@
+@charset "UTF-8";
+.effect_fade {
+  opacity: 0;
+  transform: translate(0, 80px);
+  /* フェードインで動く高さを指定 */
+  transition: all 2000ms;
+  /* フェードインにかかる時間を指定 */
+}
+
+.effect_slide {
+  opacity: 0;
+  transform: translate(80px, 0);
+  /* フェードインで動く高さを指定 */
+  transition: all 1000ms;
+  /* フェードインにかかる時間を指定 */
+}
+
+.effect_scroll {
+  opacity: 1;
+  transform: translate(0, 0);
+}
