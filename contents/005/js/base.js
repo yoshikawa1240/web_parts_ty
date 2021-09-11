@@ -1,5 +1,5 @@
 $(function () {
-  $('.conts').slick({
+  $('.cont_ty_005_wrapper').slick({
     // autoplay: true,
     // 自動再生
     autoplaySpeed: 5000,

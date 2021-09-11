@@ -1,5 +1,6 @@
 <link rel="stylesheet" href="<?php echo $home_url; ?>/web_parts_ty/contents/005/css/style.min.css" );>
 <link rel="stylesheet" href="<?php echo $home_url; ?>/web_parts_ty/contents/005/css/reset.min.css" );>
+<!-- slick.css -->
 <link rel="stylesheet" href="<?php echo $home_url; ?>/web_parts_ty/contents/005/css/slick.css" );>
 <!-- jQuery_CDN -->
 <script src="https://code.jquery.com/jquery-3.6.0.js"integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
@@ -15,7 +16,7 @@
   ---------------->
   <article class="cont_ty_005">
     <h2>タイトルをここに入力<span>サブタイトルをここに入力</span></h2>
-    <div class="conts">
+    <section class="cont_ty_005_wrapper">
       <a href="">
         <div class="image"><img src="https://cdn.pixabay.com/photo/2014/08/15/11/29/beach-418742_1280.jpg"></div>
         <div class="category_name">カテゴリー</div>
@@ -32,5 +33,5 @@
         <div class="image"><img src="https://cdn.pixabay.com/photo/2014/08/15/11/29/beach-418742_1280.jpg"></div>
         <div class="category_name">カテゴリー</div>
       </a>
-    </div>
+    </section>
   </article>
