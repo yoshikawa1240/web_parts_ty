@@ -69,13 +69,13 @@ column_1_ptn_001
 }
 
 /* ----------------------------------------------------------------------
-cont_parts_y_004
+cont_ty_004
 ---------------------------------------------------------------------- */
-.cont_parts_y_004 {
+.cont_ty_004 {
   padding: 100px 20px;
 }
 
-.cont_parts_y_004 .wrapper {
+.cont_ty_004 .wrapper {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   max-width: 1200px;
@@ -84,19 +84,19 @@ cont_parts_y_004
 }
 
 @media (max-width: 1050px) {
-  .cont_parts_y_004 .wrapper {
+  .cont_ty_004 .wrapper {
     grid-template-columns: repeat(1, 1fr);
     gap: 50px;
   }
 }
 
-.cont_parts_y_004 .wrapper section {
+.cont_ty_004 .wrapper section {
   position: relative;
   padding: 65px 35px 35px 35px;
   border: 1px solid #333;
 }
 
-.cont_parts_y_004 .wrapper section .number {
+.cont_ty_004 .wrapper section .number {
   position: absolute;
   padding: 0 10px 0 15px;
   top: -14%;
@@ -106,22 +106,22 @@ cont_parts_y_004
   background: #fff;
 }
 
-.cont_parts_y_004 .wrapper section .inner {
+.cont_ty_004 .wrapper section .inner {
   text-align: center;
 }
 
-.cont_parts_y_004 .wrapper section .inner h2 {
+.cont_ty_004 .wrapper section .inner h2 {
   margin-bottom: 35px;
   font-size: 24px;
 }
 
-.cont_parts_y_004 .wrapper section .inner p {
+.cont_ty_004 .wrapper section .inner p {
   margin-bottom: 25px;
   font-size: 16px;
   line-height: 1.5;
 }
 
-.cont_parts_y_004 .wrapper section .inner a {
+.cont_ty_004 .wrapper section .inner a {
   margin: 0 auto;
   width: 200px;
   padding: 10px 20px;
@@ -135,7 +135,7 @@ cont_parts_y_004
   transition: all .3s ease-out;
 }
 
-.cont_parts_y_004 .wrapper section .inner a:hover {
+.cont_ty_004 .wrapper section .inner a:hover {
   background-position: left bottom;
   color: white;
 }
