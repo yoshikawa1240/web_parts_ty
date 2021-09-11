@@ -48,6 +48,7 @@ column_1_ptn_001
 .column_1_ptn_001 .wrapper {
   margin: 0 auto;
   padding: 40px 0;
+  max-width: 1200px;
 }
 
 @media (max-width: 1050px) {
@@ -69,51 +70,50 @@ column_1_ptn_001
 }
 
 /* ----------------------------------------------------------------------
-cont_parts_y_007
+cont_ty_007
 ---------------------------------------------------------------------- */
-.cont_parts_y_007 .conts_wrapper {
-  margin: 60px auto;
-  max-width: 1000px;
-}
-
-@media (max-width: 800px) {
-  .cont_parts_y_007 .conts_wrapper {
-    padding: 0 20px;
-  }
+.cont_ty_007 {
+  padding: 100px 24px;
 }
 
 @media (max-width: 600px) {
-  .cont_parts_y_007 .conts_wrapper {
+  .cont_ty_007 {
     padding: 0;
+    padding-top: 64px;
   }
 }
 
-.cont_parts_y_007 .conts_wrapper section a {
+.cont_ty_007 .cont_ty_007_wrapper {
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+.cont_ty_007 .cont_ty_007_wrapper section a {
   margin-bottom: 40px;
   display: flex;
   justify-content: center;
   border: 1px solid #ddd;
 }
 
-.cont_parts_y_007 .conts_wrapper section a:hover img {
+.cont_ty_007 .cont_ty_007_wrapper section a:hover img {
   transform: scale(1.2);
 }
 
 @media (max-width: 600px) {
-  .cont_parts_y_007 .conts_wrapper section a {
+  .cont_ty_007 .cont_ty_007_wrapper section a {
     margin: 0 -1px -1px 0;
     padding: 20px 10px;
   }
 }
 
-.cont_parts_y_007 .conts_wrapper section a .image {
+.cont_ty_007 .cont_ty_007_wrapper section a .image {
   position: relative;
   overflow: hidden;
   width: 100%;
   height: 100%;
 }
 
-.cont_parts_y_007 .conts_wrapper section a .image img {
+.cont_ty_007 .cont_ty_007_wrapper section a .image img {
   width: 100%;
   height: 230px;
   display: block;
@@ -122,57 +122,56 @@ cont_parts_y_007
 }
 
 @media (max-width: 600px) {
-  .cont_parts_y_007 .conts_wrapper section a .image img {
+  .cont_ty_007 .cont_ty_007_wrapper section a .image img {
     height: 105px;
   }
 }
 
-.cont_parts_y_007 .conts_wrapper section a .image .category {
+.cont_ty_007 .cont_ty_007_wrapper section a .image .category {
   position: absolute;
   top: 0%;
   left: 0%;
-  padding: 0 20px;
-  min-width: 130px;
+  padding: 0 32px;
   height: 40px;
-  display: block;
+  display: flex;
+  align-items: center;
   background: #ef6462;
   text-align: center;
-  line-height: 40px;
   font-size: 12px;
   color: #fff;
 }
 
-@media (max-width: 850px) {
-  .cont_parts_y_007 .conts_wrapper section a .image .category {
-    min-width: 118px;
-    height: 35px;
+@media (max-width: 600px) {
+  .cont_ty_007 .cont_ty_007_wrapper section a .image .category {
+    padding: 0 16px;
+    height: 30px;
   }
 }
 
-.cont_parts_y_007 .conts_wrapper section a .cont_wrapper {
+.cont_ty_007 .cont_ty_007_wrapper section a .outer {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.cont_parts_y_007 .conts_wrapper section a .cont_wrapper .inner {
+.cont_ty_007 .cont_ty_007_wrapper section a .outer .inner {
   padding: 0 30px 0 40px;
   width: 100%;
 }
 
 @media (max-width: 750px) {
-  .cont_parts_y_007 .conts_wrapper section a .cont_wrapper .inner {
+  .cont_ty_007 .cont_ty_007_wrapper section a .outer .inner {
     padding: 0 20px 0 30px;
   }
 }
 
 @media (max-width: 600px) {
-  .cont_parts_y_007 .conts_wrapper section a .cont_wrapper .inner {
+  .cont_ty_007 .cont_ty_007_wrapper section a .outer .inner {
     padding: 0 0 0 10px;
   }
 }
 
-.cont_parts_y_007 .conts_wrapper section a .cont_wrapper .inner h3 {
+.cont_ty_007 .cont_ty_007_wrapper section a .outer .inner h3 {
   line-height: 1.8em;
   font-weight: bold;
   font-size: 18px;
@@ -180,20 +179,20 @@ cont_parts_y_007
 }
 
 @media (max-width: 600px) {
-  .cont_parts_y_007 .conts_wrapper section a .cont_wrapper .inner h3 {
+  .cont_ty_007 .cont_ty_007_wrapper section a .outer .inner h3 {
     line-height: 1.4em;
     font-size: 14px;
   }
 }
 
-.cont_parts_y_007 .conts_wrapper section a .cont_wrapper .inner span {
+.cont_ty_007 .cont_ty_007_wrapper section a .outer .inner span {
   margin-top: 7px;
   font-size: 12px;
   color: #999;
   display: block;
 }
 
-.cont_parts_y_007 .conts_wrapper section a .cont_wrapper .inner span::before {
+.cont_ty_007 .cont_ty_007_wrapper section a .outer .inner span::before {
   margin-right: 0.2em;
   display: inline-block;
   font-family: "Font Awesome 5 Free";
