@@ -2,9 +2,9 @@
 <link rel="stylesheet" href="<?php echo $home_url; ?>/web_parts_ty/contents/002/css/reset.min.css" );>
 
   <!-------------- 
-    cont_y_002
+    cont_ty_002
   ---------------->
-  <article class="cont_y_002">
+  <article class="cont_ty_002">
     <div class="wrapper">
       <section>
         <a href="">
