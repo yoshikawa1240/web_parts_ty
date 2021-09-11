@@ -57,7 +57,3 @@
     <!-- 参考サイト
   https://aorino.jp/ -->
 
-
-</body>
-</html>
-
