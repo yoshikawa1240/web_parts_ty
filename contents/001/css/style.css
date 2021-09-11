@@ -73,6 +73,7 @@ cont_parts_y_001
 ---------------------------------------------------------------------- */
 .cont_parts_y_001 {
   padding: 100px 20px;
+  background: tomato;
 }
 
 .cont_parts_y_001 header h2 {

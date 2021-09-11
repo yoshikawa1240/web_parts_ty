@@ -1,21 +1,5 @@
-<!DOCTYPE html>
-<html lang="ja">
+<link rel="stylesheet" href="<?php echo $home_url; ?>/web_parts_ty/contents/001/css/style.min.css" );>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>cont_parts_y_001</title>
-  <link rel="stylesheet" href="./css/reset.css">
-  <link rel="stylesheet" href="./css/style.css">
-  <!-- FontAwesome -->
-  <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
-  <!-- GoogleFont -->
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200;400;500;700;900&display=swap"
-    rel="stylesheet">
-</head>
-
-<body>
   <!-------------- 
     cont_parts_y_001
   ---------------->
