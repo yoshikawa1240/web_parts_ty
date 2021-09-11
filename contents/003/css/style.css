@@ -69,13 +69,13 @@ column_1_ptn_001
 }
 
 /* ----------------------------------------------------------------------
-cont_parts_y_003
+cont_ty_003
 ---------------------------------------------------------------------- */
-.cont_parts_y_003 {
+.cont_ty_003 {
   padding: 100px 20px;
 }
 
-.cont_parts_y_003 h2 {
+.cont_ty_003 h2 {
   font-size: 24px;
   text-align: center;
   font-weight: 400;
@@ -83,7 +83,7 @@ cont_parts_y_003
   line-height: 1.4;
 }
 
-.cont_parts_y_003 span {
+.cont_ty_003 span {
   font-size: 14px;
   display: block;
   text-align: center;
@@ -92,7 +92,7 @@ cont_parts_y_003
   margin-bottom: 30px;
 }
 
-.cont_parts_y_003 .conts {
+.cont_ty_003 .conts {
   max-width: 1250px;
   margin: 0 auto 20px auto;
   display: flex;
@@ -101,54 +101,54 @@ cont_parts_y_003
   gap: 20px;
 }
 
-.cont_parts_y_003 .conts .cont {
+.cont_ty_003 .conts .cont {
   max-width: 280px;
 }
 
 @media (max-width: 800px) {
-  .cont_parts_y_003 .conts .cont {
+  .cont_ty_003 .conts .cont {
     max-width: 270px;
   }
 }
 
 @media (max-width: 600px) {
-  .cont_parts_y_003 .conts .cont {
+  .cont_ty_003 .conts .cont {
     max-width: 100%;
   }
 }
 
-.cont_parts_y_003 .conts .cont:hover img {
+.cont_ty_003 .conts .cont:hover img {
   transform: scale(1.3);
 }
 
-.cont_parts_y_003 .conts .cont:hover .inner .date,
-.cont_parts_y_003 .conts .cont:hover .inner h3 {
+.cont_ty_003 .conts .cont:hover .inner .date,
+.cont_ty_003 .conts .cont:hover .inner h3 {
   opacity: 0.8;
 }
 
-.cont_parts_y_003 .conts .cont .image {
+.cont_ty_003 .conts .cont .image {
   overflow: hidden;
 }
 
-.cont_parts_y_003 .conts .cont .image img {
+.cont_ty_003 .conts .cont .image img {
   width: 100%;
   height: 145px;
   transition: 0.6s;
   object-fit: cover;
 }
 
-.cont_parts_y_003 .conts .cont .image img::before {
+.cont_ty_003 .conts .cont .image img::before {
   content: "";
   display: block;
   padding-top: 100%;
 }
 
-.cont_parts_y_003 .conts .cont .inner {
+.cont_ty_003 .conts .cont .inner {
   padding: 24px;
   background: #ebebe2;
 }
 
-.cont_parts_y_003 .conts .cont .inner .date {
+.cont_ty_003 .conts .cont .inner .date {
   font-size: 14px;
   letter-spacing: 0.1em;
   font-weight: 700;
@@ -160,7 +160,7 @@ cont_parts_y_003
   transition-timing-function: ease-in-out;
 }
 
-.cont_parts_y_003 .conts .cont .inner h3 {
+.cont_ty_003 .conts .cont .inner h3 {
   letter-spacing: 0.08em;
   font-size: 16px;
   letter-spacing: 0.025em;
@@ -171,11 +171,11 @@ cont_parts_y_003
   transition-timing-function: ease-in-out;
 }
 
-.cont_parts_y_003 .btn {
+.cont_ty_003 .btn {
   text-align: center;
 }
 
-.cont_parts_y_003 .btn a {
+.cont_ty_003 .btn a {
   padding: 5px 20px 4px;
   background-color: #000;
   color: #fff;
@@ -190,7 +190,7 @@ cont_parts_y_003
   transition: all .3s ease-in-out;
 }
 
-.cont_parts_y_003 .btn a:hover {
+.cont_ty_003 .btn a:hover {
   background: #fff;
   color: #000;
 }
