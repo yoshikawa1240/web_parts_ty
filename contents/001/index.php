@@ -1,11 +1,12 @@
 <link rel="stylesheet" href="<?php echo $home_url; ?>/web_parts_ty/contents/001/css/style.min.css" );>
+<link rel="stylesheet" href="<?php echo $home_url; ?>/web_parts_ty/contents/001/css/reset.css" );>
 
   <!-------------- 
-    cont_parts_y_001
+    cont_ty_001
   ---------------->
-  <article class="cont_parts_y_001">
+  <article class="cont_ty_001">
     <header>
-      <h2>タイトルが入ります<br>タイトルが入ります</h2>
+      <h1>タイトルが入ります<br>タイトルが入ります</h1>
     </header>
     <section>
       <ul>
