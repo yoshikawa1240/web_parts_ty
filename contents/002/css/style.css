@@ -69,19 +69,19 @@ column_1_ptn_001
 }
 
 /* ----------------------------------------------------------------------
-cont_y_002
+cont_ty_002
 ---------------------------------------------------------------------- */
-.cont_y_002 {
+.cont_ty_002 {
   padding: 100px 60px;
 }
 
 @media (max-width: 600px) {
-  .cont_y_002 {
+  .cont_ty_002 {
     padding: 100px 40px;
   }
 }
 
-.cont_y_002 .wrapper {
+.cont_ty_002 .wrapper {
   margin: 0 auto;
   max-width: 1200px;
   display: grid;
@@ -90,42 +90,42 @@ cont_y_002
 }
 
 @media (max-width: 1050px) {
-  .cont_y_002 .wrapper {
+  .cont_ty_002 .wrapper {
     grid-template-columns: repeat(1, 1fr);
   }
 }
 
-.cont_y_002 .wrapper section {
+.cont_ty_002 .wrapper section {
   position: relative;
 }
 
-.cont_y_002 .wrapper section:hover img {
+.cont_ty_002 .wrapper section:hover img {
   transition: .6s;
   transform: scale(1.1);
 }
 
-.cont_y_002 .wrapper section:hover .btn {
+.cont_ty_002 .wrapper section:hover .btn {
   right: 20px;
 }
 
 @media (max-width: 600px) {
-  .cont_y_002 .wrapper section:hover .btn {
+  .cont_ty_002 .wrapper section:hover .btn {
     right: 25px;
   }
 }
 
-.cont_y_002 .wrapper section a {
+.cont_ty_002 .wrapper section a {
   display: block;
 }
 
-.cont_y_002 .wrapper section a .image {
+.cont_ty_002 .wrapper section a .image {
   position: relative;
   z-index: 1;
   border-radius: 40px;
   overflow: hidden;
 }
 
-.cont_y_002 .wrapper section a .image::before {
+.cont_ty_002 .wrapper section a .image::before {
   content: '';
   position: absolute;
   top: 0;
@@ -137,14 +137,14 @@ cont_y_002
   opacity: .5;
 }
 
-.cont_y_002 .wrapper section a .image img {
+.cont_ty_002 .wrapper section a .image img {
   width: 100%;
   height: 300px;
   object-fit: cover;
   transition: .6s;
 }
 
-.cont_y_002 .wrapper section a header {
+.cont_ty_002 .wrapper section a header {
   position: absolute;
   top: 30px;
   left: 30px;
@@ -153,22 +153,22 @@ cont_y_002
   color: #fff;
 }
 
-.cont_y_002 .wrapper section a header h3 {
+.cont_ty_002 .wrapper section a header h3 {
   line-height: 1.75;
   font-size: 32px;
 }
 
 @media (max-width: 600px) {
-  .cont_y_002 .wrapper section a header h3 {
+  .cont_ty_002 .wrapper section a header h3 {
     font-size: 20px;
   }
 }
 
-.cont_y_002 .wrapper section a header span {
+.cont_ty_002 .wrapper section a header span {
   font-size: 12px;
 }
 
-.cont_y_002 .wrapper section a .btn {
+.cont_ty_002 .wrapper section a .btn {
   position: absolute;
   top: 30px;
   right: 30px;
@@ -181,13 +181,13 @@ cont_y_002
 }
 
 @media (max-width: 600px) {
-  .cont_y_002 .wrapper section a .btn {
+  .cont_ty_002 .wrapper section a .btn {
     top: 35px;
     font-size: 16px;
   }
 }
 
-.cont_y_002 .wrapper section a .btn::after {
+.cont_ty_002 .wrapper section a .btn::after {
   content: "";
   position: absolute;
   top: 10px;
@@ -202,7 +202,7 @@ cont_y_002
 }
 
 @media (max-width: 600px) {
-  .cont_y_002 .wrapper section a .btn::after {
+  .cont_ty_002 .wrapper section a .btn::after {
     left: -25px;
     width: 150px;
   }
