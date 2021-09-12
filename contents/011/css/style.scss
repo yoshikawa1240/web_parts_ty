@@ -82,7 +82,7 @@ cont_parts_y_011
           }
         }
       }
-      h3 {
+      h2 {
         position: absolute;
         top: 0px;
         left: 0px;
@@ -107,7 +107,7 @@ cont_parts_y_011
           font-size: 14px;
         }
       }
-      .slider {
+      .cont_parts_y_011_slider {
         position: absolute;
         bottom: 40px;
         left: 50%;
@@ -122,7 +122,7 @@ cont_parts_y_011
         a {
           // margin: 0 130px;
           margin: 0 5px;
-          display: flex!important;
+          display: flex !important;
           // @media (max-width: 1050px) {
           //   margin: 0 40px;
           // }
@@ -168,7 +168,7 @@ cont_parts_y_011
               margin-bottom: 10px;
               font-size: 14px;
             }
-            h4 {
+            h3 {
               line-height: 1.5;
               font-size: 14px;
             }
@@ -176,12 +176,12 @@ cont_parts_y_011
         }
       }
       &:nth-of-type(1) {
-        h3 {
+        h2 {
           background: linear-gradient(to bottom, rgba(36, 70, 3, 1) 0%, rgba(36, 70, 3, 0) 100%);
         }
       }
       &:nth-of-type(2) {
-        h3 {
+        h2 {
           background: linear-gradient(to bottom, rgba(161, 107, 133, 1) 0%, rgba(161, 107, 133, 0) 100%);
         }
       }
@@ -194,30 +194,41 @@ cont_parts_y_011
 .slick-next {
   position: absolute;
   top: 0;
-  left: 75px;
+  bottom: 0;
+  left: -5%;
+  right: auto;
   z-index: 100;
   padding: 0;
-  height: 100%;
   background: none;
   border: none;
   font-size: 0;
-  @media (max-width: 1050px) {
+  cursor: pointer;
+  @media (max-width: 500px) {
     display: none !important;
   }
   &::before {
-    content: "\f137";
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    display: block;
-    font-size: 18px;
-    color: #fff;
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    width: 10px;
+    height: 10px;
+    border: 2px solid;
+    border-color: transparent transparent #fff #fff;
+    transform: rotate(45deg);
+    transition: 0.3s;
   }
   &:focus {
     outline: none;
   }
 }
 .slick-next {
-  right: 75px;
   left: auto;
-  transform: rotate(180deg);
+  right: -5%;
+  &::before {
+    border-color: transparent #fff #fff transparent;
+    transform: rotate(-45deg);
+  }
 }

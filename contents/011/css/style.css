@@ -114,7 +114,7 @@ cont_parts_y_011
   }
 }
 
-.cont_parts_y_011 .wrapper section h3 {
+.cont_parts_y_011 .wrapper section h2 {
   position: absolute;
   top: 0px;
   left: 0px;
@@ -132,7 +132,7 @@ cont_parts_y_011
 }
 
 @media (max-width: 1050px) {
-  .cont_parts_y_011 .wrapper section h3 {
+  .cont_parts_y_011 .wrapper section h2 {
     padding: 0 15px;
     width: 110px;
     height: 110px;
@@ -140,13 +140,13 @@ cont_parts_y_011
 }
 
 @media (max-width: 800px) {
-  .cont_parts_y_011 .wrapper section h3 {
+  .cont_parts_y_011 .wrapper section h2 {
     padding: 0 20px;
     font-size: 14px;
   }
 }
 
-.cont_parts_y_011 .wrapper section .slider {
+.cont_parts_y_011 .wrapper section .cont_parts_y_011_slider {
   position: absolute;
   bottom: 40px;
   left: 50%;
@@ -157,25 +157,25 @@ cont_parts_y_011
 }
 
 @media (max-width: 700px) {
-  .cont_parts_y_011 .wrapper section .slider {
+  .cont_parts_y_011 .wrapper section .cont_parts_y_011_slider {
     bottom: 20px;
   }
 }
 
-.cont_parts_y_011 .wrapper section .slider a {
+.cont_parts_y_011 .wrapper section .cont_parts_y_011_slider a {
   margin: 0 5px;
   display: flex !important;
 }
 
-.cont_parts_y_011 .wrapper section .slider a:hover img {
+.cont_parts_y_011 .wrapper section .cont_parts_y_011_slider a:hover img {
   transform: scale(1.2);
 }
 
-.cont_parts_y_011 .wrapper section .slider a:hover .inner {
+.cont_parts_y_011 .wrapper section .cont_parts_y_011_slider a:hover .inner {
   color: #e1e1e1;
 }
 
-.cont_parts_y_011 .wrapper section .slider a .sub_image {
+.cont_parts_y_011 .wrapper section .cont_parts_y_011_slider a .sub_image {
   width: 120px;
   height: 120px;
   border: 10px solid #fff;
@@ -184,13 +184,13 @@ cont_parts_y_011
 }
 
 @media (max-width: 700px) {
-  .cont_parts_y_011 .wrapper section .slider a .sub_image {
+  .cont_parts_y_011 .wrapper section .cont_parts_y_011_slider a .sub_image {
     width: 100px;
     height: 100px;
   }
 }
 
-.cont_parts_y_011 .wrapper section .slider a .sub_image img {
+.cont_parts_y_011 .wrapper section .cont_parts_y_011_slider a .sub_image img {
   width: 100px;
   height: 100px;
   display: block;
@@ -199,40 +199,40 @@ cont_parts_y_011
 }
 
 @media (max-width: 700px) {
-  .cont_parts_y_011 .wrapper section .slider a .sub_image img {
+  .cont_parts_y_011 .wrapper section .cont_parts_y_011_slider a .sub_image img {
     width: 80px;
     height: 80px;
   }
 }
 
-.cont_parts_y_011 .wrapper section .slider a .inner {
+.cont_parts_y_011 .wrapper section .cont_parts_y_011_slider a .inner {
   padding: 20px 0 0 15px;
   width: calc(100% - 119px);
   color: #fff;
 }
 
 @media (max-width: 700px) {
-  .cont_parts_y_011 .wrapper section .slider a .inner {
+  .cont_parts_y_011 .wrapper section .cont_parts_y_011_slider a .inner {
     width: calc(100% - 100px);
     padding: 0 0 0 15px;
   }
 }
 
-.cont_parts_y_011 .wrapper section .slider a .inner p {
+.cont_parts_y_011 .wrapper section .cont_parts_y_011_slider a .inner p {
   margin-bottom: 10px;
   font-size: 14px;
 }
 
-.cont_parts_y_011 .wrapper section .slider a .inner h4 {
+.cont_parts_y_011 .wrapper section .cont_parts_y_011_slider a .inner h3 {
   line-height: 1.5;
   font-size: 14px;
 }
 
-.cont_parts_y_011 .wrapper section:nth-of-type(1) h3 {
+.cont_parts_y_011 .wrapper section:nth-of-type(1) h2 {
   background: linear-gradient(to bottom, #244603 0%, rgba(36, 70, 3, 0) 100%);
 }
 
-.cont_parts_y_011 .wrapper section:nth-of-type(2) h3 {
+.cont_parts_y_011 .wrapper section:nth-of-type(2) h2 {
   background: linear-gradient(to bottom, #a16b85 0%, rgba(161, 107, 133, 0) 100%);
 }
 
@@ -240,16 +240,18 @@ cont_parts_y_011
 .slick-next {
   position: absolute;
   top: 0;
-  left: 75px;
+  bottom: 0;
+  left: -5%;
+  right: auto;
   z-index: 100;
   padding: 0;
-  height: 100%;
   background: none;
   border: none;
   font-size: 0;
+  cursor: pointer;
 }
 
-@media (max-width: 1050px) {
+@media (max-width: 500px) {
   .slick-prev,
   .slick-next {
     display: none !important;
@@ -258,12 +260,18 @@ cont_parts_y_011
 
 .slick-prev::before,
 .slick-next::before {
-  content: "\f137";
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-  display: block;
-  font-size: 18px;
-  color: #fff;
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  width: 10px;
+  height: 10px;
+  border: 2px solid;
+  border-color: transparent transparent #fff #fff;
+  transform: rotate(45deg);
+  transition: 0.3s;
 }
 
 .slick-prev:focus,
@@ -272,7 +280,11 @@ cont_parts_y_011
 }
 
 .slick-next {
-  right: 75px;
   left: auto;
-  transform: rotate(180deg);
+  right: -5%;
+}
+
+.slick-next::before {
+  border-color: transparent #fff #fff transparent;
+  transform: rotate(-45deg);
 }
