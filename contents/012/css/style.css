@@ -70,13 +70,13 @@ column_1_ptn_001
 }
 
 /* ----------------------------------------------------------------------
-cont_parts_y_011
+cont_ty_011
 ---------------------------------------------------------------------- */
-.cont_parts_y_011 {
+.cont_ty_011 {
   padding: 100px 0;
 }
 
-.cont_parts_y_011 .wrapper {
+.cont_ty_011 .wrapper {
   background: red;
   width: 100%;
   position: relative;
@@ -84,7 +84,7 @@ cont_parts_y_011
   overflow: hidden;
 }
 
-.cont_parts_y_011 .wrapper .bg_image {
+.cont_ty_011 .wrapper .bg_image {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -95,7 +95,7 @@ cont_parts_y_011
   margin: auto;
 }
 
-.cont_parts_y_011 .wrapper .bg_image::after {
+.cont_ty_011 .wrapper .bg_image::after {
   content: "";
   position: absolute;
   top: 0;
@@ -110,23 +110,23 @@ cont_parts_y_011
   transform: rotate(-15deg);
 }
 
-.cont_parts_y_011 .wrapper section {
+.cont_ty_011 .wrapper section {
   position: relative;
   z-index: 10;
   max-width: 1000px;
   margin: 0 auto;
 }
 
-.cont_parts_y_011 .wrapper section .inner {
+.cont_ty_011 .wrapper section .inner {
   height: 500px;
   color: #fff;
 }
 
-.cont_parts_y_011 .wrapper section .inner h1 {
+.cont_ty_011 .wrapper section .inner h1 {
   font-size: 40px;
 }
 
-.cont_parts_y_011 .wrapper section .inner p {
+.cont_ty_011 .wrapper section .inner p {
   font-size: 18px;
   text-align: center;
 }

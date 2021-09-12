@@ -1,37 +1,22 @@
-<!DOCTYPE html>
-<html lang="ja">
+<link rel="stylesheet" href="<?php echo $home_url; ?>/web_parts_ty/contents/012/css/style.min.css" );>
+<link rel="stylesheet" href="<?php echo $home_url; ?>/web_parts_ty/contents/012/css/reset.min.css" );>
+<!-- slick.css -->
+<link rel="stylesheet" href="<?php echo $home_url; ?>/web_parts_ty/contents/012/css/slick.css" );>
+<!-- jQuery_CDN -->
+<script src="https://code.jquery.com/jquery-3.6.0.js"integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<!-- slick.js -->
+<script src="<?php echo $home_url; ?>/web_parts_ty/contents/005/js/slick.min.js" );></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.min.js"></script>
+<!-- base.js -->
+<script src="<?php echo $home_url; ?>/web_parts_ty/contents/012/js/base.js" );></script>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>cont_parts_y_012</title>
-  <link rel="stylesheet" href="./css/reset.css">
-  <link rel="stylesheet" href="./css/style.css">
-  <!-- FontAwesome -->
-  <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
-  <!-- GoogleFont -->
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200;400;500;700;900&display=swap"
-    rel="stylesheet">
-  <!-- js系 -->
-  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/lazyload@2.0.0-rc.2/lazyload.js"></script>
-  <script src="./js/base.js"></script>
-  <!-- slick.css_cdn -->
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css">
-</head>
-
-<body>
-  <!-- 参考サイト
-　背景が斜めの方法
+  <!-- 背景が斜めの方法
 　・回転軸が分かるようにする
 　・背景画像の幅と高さを0にする -->
   <!-------------- 
-    cont_parts_y_012
+    cont_ty_012
   ---------------->
-  <article class="cont_parts_y_011">
+  <article class="cont_ty_011">
     <div class="wrapper">
       <section>
         <div class="inner">
@@ -43,7 +28,7 @@
     </div>
   </article>
 
-
+  <!-- ハンバーガーボタン -->
   <header class="hdr_main">
     <div class="wrapper">
       <div class="ham_btn">
@@ -143,14 +128,3 @@ main_live
     </div>
   </div>
 </div>
-
-  <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-  <script type="text/javascript"
-    src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
-
-
-</body>
-
-
-
-</html>
