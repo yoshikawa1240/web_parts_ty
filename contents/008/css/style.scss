@@ -49,58 +49,55 @@ column_1_ptn_001
   }
 }
 /* ----------------------------------------------------------------------
-cont_parts_y_008
+cont_ty_008
 ---------------------------------------------------------------------- */
-.cont_parts_y_008 {
+.cont_ty_008 {
+  padding: 100px 24px;
+  @media (max-width: 600px) {
+    padding: 0;
+    padding-top: 64px;
+  }
   .wrapper {
     margin: 0 auto;
-    padding: 95px 0 150px 0;
     max-width: 1000px;
-    @media (max-width: 1250px) {
-      padding: 100px 50px 150px 50px;
-    }
+    
     @media (max-width: 600px) {
-      padding: 35px 40px 40px 40px;
+      padding: 0 24px;
     }
-    @media (max-width: 500px) {
-      padding: 35px 30px 40px 30px;
-    }
-    @media (max-width: 400px) {
-      padding: 35px 10px 40px 10px;
-    }
-    .top {
+    h2 {
+      line-height: 1.4em;
+      font-size: 36px;
+      margin-bottom: 24px;
       text-align: center;
-      h2 {
-        line-height: 1.4em;
-        font-size: 36px;
-        @media (max-width: 600px) {
-          font-size: 24px;
-        }
-      }
-      .text {
-        margin: 20px 0 0 0;
-        font-size: 16px;
-        @media (max-width: 600px) {
-          font-size: 15px;
-        }
-        p {
-          line-height: 2.4em;
-        }
+      @media (max-width: 600px) {
+        font-size: 24px;
+        padding: 0 16px;
       }
     }
-    .conts {
-      margin: 90px 0 0 0;
+    p {
+      line-height: 1.5;
+      font-size: 16px;
+      margin-bottom: 32px;
+      @media (max-width: 600px) {
+        font-size: 15px;
+        padding: 0 16px;
+      }
+    }
+    section {
+      margin-bottom: 64px;
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       gap: 2px 0;
-      @media (max-width: 950px) {
+      @media (max-width: 900px) {
         grid-template-columns: repeat(2, 1fr);
       }
       @media (max-width: 600px) {
+        margin-bottom: 32px;
         grid-template-columns: repeat(1, 1fr);
       }
       a {
-        color: #000;
+        display: block;
+        color: #333;
         &:hover {
           color: #1c4f73;
           img {
@@ -122,10 +119,10 @@ cont_parts_y_008
             padding-top: 80%;
             display: block;
             @media (max-width: 950px) {
-              padding-top: 50%;
+              padding-top: 56%;
             }
             @media (max-width: 600px) {
-              padding-top: 28%;
+              padding-top: 32%;
             }
           }
           img {
@@ -145,58 +142,50 @@ cont_parts_y_008
             width: 100%;
             background: #78adce;
             text-align: center;
-            line-height: 2.6em;
+            line-height: 2;
             font-size: 22px;
             color: #fff;
             transition: 0.3s;
             @media (max-width: 750px) {
-              line-height: 2.2em;
               font-size: 20px;
             }
             @media (max-width: 500px) {
-              line-height: 1.8em;
               font-size: 18px;
             }
           }
           p {
-            padding: 20px 30px;
+            margin: 0;
+            padding: 24px 32px;
             height: auto;
-            line-height: 2em;
+            line-height: 2;
             font-size: 16px;
             @media (max-width: 600px) {
-              padding: 10px 20px;
+              padding: 16px 24px;
             }
           }
         }
       }
     }
     .link {
-      margin-top: 60px;
+      margin: 0 auto;
+      max-width: 300px;
+      height: 64px;
+      display: block;
+      background: #78adce;
+      border: 1px solid #fff;
       text-align: center;
-      @media (max-width: 600px) {
-        margin: 40px 0 0 0;
+      line-height: 64px;
+      font-size: 16px;
+      color: #fff;
+      transition: 0.3s;
+      &:hover {
+        background: #3c83b1;
       }
-      a {
-        padding: 0 20px;
-        min-width: 270px;
-        height: 60px;
-        display: inline-block;
-        background: #78adce;
-        border: 1px solid #fff;
-        text-align: center;
-        line-height: 60px;
-        font-size: 16px;
-        color: #fff;
-        transition: 0.3s;
-        &:hover {
-          background: #3c83b1;
-        }
-        @media (max-width: 600px) {
-          min-width: 200px;
-          height: 45px;
-          line-height: 45px;
-          font-size: 14px;
-        }
+      @media (max-width: 600px) {
+        max-width: 240px;
+        height: 56px;
+        line-height: 56px;
+        font-size: 14px;
       }
     }
   }
