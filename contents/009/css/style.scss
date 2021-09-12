@@ -49,129 +49,119 @@ column_1_ptn_001
   }
 }
 /* ----------------------------------------------------------------------
-cont_parts_y_009
+cont_ty_009
 ---------------------------------------------------------------------- */
-.cont_parts_y_009 {
-  padding: 100px 0;
+.cont_ty_009 {
+  padding-top: 100px;
+  @media (max-width: 600px) {
+    padding-top: 64px;
+  }
   section {
     display: flex;
-    @media(max-width:800px){
+    @media (max-width: 800px) {
       display: block;
     }
     a {
       position: relative;
       width: 50%;
       display: block;
-      @media(max-width:800px){
-        width: 100%;
-      }
-      &:hover{
-        h3{
-          opacity: 0;
-        }
-        p{
-          opacity: 1;
-        }
-      }
-      &::before{
-        content: '';
+      &::before {
+        content: "";
         position: absolute;
         top: 0;
         left: 0;
+        z-index: 1;
         width: 100%;
         height: 100%;
         background: #000;
-        opacity: .2;
+        opacity: 0.2;
+      }
+      @media (max-width: 800px) {
+        width: 100%;
+      }
+      &:hover {
+        h2 {
+          opacity: 0;
+        }
+        p {
+          opacity: 1;
+        }
       }
       .image {
+        position: relative;
         width: 100%;
-        height: 100%;
         img {
           width: 100%;
-          height: 600px;
+          height: 560px;
           object-fit: cover;
-          @media(max-width:800px){
+          @media (max-width: 800px) {
             height: 360px;
           }
         }
       }
-      h3{
+      h2, p {
         position: absolute;
         bottom: 0;
         left: 0;
         z-index: 1;
-        padding: 40px 30px;
+        padding: 40px 32px;
         width: 100%;
         text-align: center;
-        line-height: 1.5em;
+        line-height: 1.5;
         font-size: 22px;
         color: #fff;
         transition: all 0.7s ease-in-out 0.4s;
         -webkit-transition: all 0.7s ease-in-out 0.4s;
         opacity: 1;
-        @media(max-width:800px){
-          padding: 30px 20px;
+        @media (max-width: 800px) {
+          padding: 32px 24px;
           font-size: 18px;
         }
       }
-      p{
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        z-index: 1;
-        padding: 40px 30px;
-        width: 100%;
-        text-align: center;
-        line-height: 1.5em;
-        font-size: 22px;
-        color: #fff;
+      p {
         transition: all 0.7s ease-in-out 0s;
         -webkit-transition: all 0.7s ease-in-out 0s;
         opacity: 0;
-        @media(max-width:800px){
-          padding: 30px 20px;
-          font-size: 18px;
-        }
       }
     }
-    .cont{
+    .outer {
       display: flex;
       justify-content: center;
       align-items: center;
       width: 50%;
-      padding: 0 130px;
-      @media(max-width:1050px){
-        padding: 0 50px;
+      padding: 0 120px;
+      @media (max-width: 1050px) {
+        padding: 0 56px;
       }
-      @media(max-width:800px){
-        padding: 80px 50px;
+      @media (max-width: 800px) {
+        padding: 80px 56px;
         width: 100%;
       }
       .inner {
-        h4 {
-          line-height: 1.5em;
+        h3 {
+          line-height: 1.5;
           font-size: 28px;
-          @media(max-width:800px){
+          @media (max-width: 800px) {
             font-size: 18px;
           }
         }
         p {
-          margin-top: 30px;
+          margin-top: 32px;
           display: block;
-          line-height: 2em;
+          line-height: 2;
           font-size: 16px;
-          @media(max-width:1050px){
-            margin-top: 22px;
+          @media (max-width: 1050px) {
+            margin-top: 24px;
           }
-          @media(max-width:800px){
-            margin-top: 10px;
+          @media (max-width: 800px) {
+            margin-top: 16px;
             font-size: 14px;
           }
         }
       }
     }
-    &:nth-of-type(2n){
-      flex-direction: row-reverse
+    &:nth-of-type(2n) {
+      flex-direction: row-reverse;
     }
   }
 }
