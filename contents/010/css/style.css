@@ -69,7 +69,7 @@ column_1_ptn_001
 }
 
 /* ----------------------------------------------------------------------
-cont_parts_y_010
+cont_ty_010
 ---------------------------------------------------------------------- */
 @keyframes opacityAnimation {
   0% {
@@ -80,28 +80,34 @@ cont_parts_y_010
   }
 }
 
-.cont_parts_y_010 {
-  padding: 100px 0;
+.cont_ty_010 {
+  padding-top: 100px;
 }
 
-.cont_parts_y_010 .wrapper {
+@media (max-width: 800px) {
+  .cont_ty_010 {
+    padding-top: 64px;
+  }
+}
+
+.cont_ty_010 .wrapper {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
 
 @media (max-width: 800px) {
-  .cont_parts_y_010 .wrapper {
+  .cont_ty_010 .wrapper {
     grid-template-columns: repeat(1, 1fr);
   }
 }
 
-.cont_parts_y_010 .wrapper section a {
+.cont_ty_010 .wrapper section a {
   display: block;
   position: relative;
 }
 
-.cont_parts_y_010 .wrapper section a:hover::before {
-  content: '';
+.cont_ty_010 .wrapper section a:hover::before {
+  content: "";
   display: block;
   width: 100%;
   height: 40%;
@@ -120,28 +126,21 @@ cont_parts_y_010
   animation-play-state: running;
 }
 
-.cont_parts_y_010 .wrapper section a:hover img {
+.cont_ty_010 .wrapper section a:hover img {
   transform: scale(1.5);
 }
 
-.cont_parts_y_010 .wrapper section a:hover p {
+.cont_ty_010 .wrapper section a:hover p {
   animation-name: opacityAnimation;
 }
 
-.cont_parts_y_010 .wrapper section a .image {
+.cont_ty_010 .wrapper section a .image {
   position: relative;
   width: 100%;
-  height: 600px;
   overflow: hidden;
 }
 
-@media (max-width: 800px) {
-  .cont_parts_y_010 .wrapper section a .image {
-    height: 350px;
-  }
-}
-
-.cont_parts_y_010 .wrapper section a .image::before {
+.cont_ty_010 .wrapper section a .image::before {
   content: "";
   position: absolute;
   top: 0px;
@@ -150,30 +149,30 @@ cont_parts_y_010
   width: 100%;
   height: 100%;
   background: #000;
-  opacity: .1;
+  opacity: 0.1;
 }
 
-.cont_parts_y_010 .wrapper section a .image img {
-  height: 600px;
+.cont_ty_010 .wrapper section a .image img {
+  height: 560px;
   width: 100%;
   object-fit: cover;
   transition: 1s;
 }
 
 @media (max-width: 800px) {
-  .cont_parts_y_010 .wrapper section a .image img {
-    height: 350px;
+  .cont_ty_010 .wrapper section a .image img {
+    height: 320px;
   }
 }
 
-.cont_parts_y_010 .wrapper section a h3 {
+.cont_ty_010 .wrapper section a h2 {
   padding: 0 40px;
   position: absolute;
   top: 0px;
   left: 0px;
   z-index: 10;
-  width: 180px;
-  height: 180px;
+  width: 184px;
+  height: 184px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -184,22 +183,23 @@ cont_parts_y_010
 }
 
 @media (max-width: 1050px) {
-  .cont_parts_y_010 .wrapper section a h3 {
-    width: 110px;
-    height: 110px;
-    padding: 0 15px;
+  .cont_ty_010 .wrapper section a h2 {
+    width: 112px;
+    height: 112px;
+    padding: 0 16px;
+    font-size: 16px;
   }
 }
 
 @media (max-width: 800px) {
-  .cont_parts_y_010 .wrapper section a h3 {
+  .cont_ty_010 .wrapper section a h2 {
     padding: 0 20px;
     font-size: 14px;
   }
 }
 
-.cont_parts_y_010 .wrapper section a p {
-  padding: 40px 75px;
+.cont_ty_010 .wrapper section a p {
+  padding: 40px 72px;
   position: absolute;
   bottom: 0px;
   left: 0px;
@@ -210,7 +210,7 @@ cont_parts_y_010
   opacity: 0;
   animation-duration: 1s;
   animation-timing-function: ease;
-  animation-delay: .5s;
+  animation-delay: 0.5s;
   animation-iteration-count: 1;
   animation-direction: normal;
   animation-fill-mode: forwards;
@@ -218,25 +218,25 @@ cont_parts_y_010
 }
 
 @media (max-width: 1050px) {
-  .cont_parts_y_010 .wrapper section a p {
-    padding: 25px 40px;
+  .cont_ty_010 .wrapper section a p {
+    padding: 24px 40px;
   }
 }
 
 @media (max-width: 800px) {
-  .cont_parts_y_010 .wrapper section a p {
+  .cont_ty_010 .wrapper section a p {
     font-size: 14px;
   }
 }
 
-.cont_parts_y_010 .wrapper section:nth-of-type(1) h3 {
+.cont_ty_010 .wrapper section:nth-of-type(1) h2 {
   background: linear-gradient(to bottom, #630000 0%, rgba(99, 0, 0, 0) 100%);
 }
 
-.cont_parts_y_010 .wrapper section:nth-of-type(2) h3 {
+.cont_ty_010 .wrapper section:nth-of-type(2) h2 {
   background: linear-gradient(to bottom, #624c00 0%, rgba(98, 76, 0, 0) 100%);
 }
 
-.cont_parts_y_010 .wrapper section:nth-of-type(3) h3 {
+.cont_ty_010 .wrapper section:nth-of-type(3) h2 {
   background: linear-gradient(to bottom, #002f40 0%, rgba(0, 47, 64, 0) 100%);
 }
