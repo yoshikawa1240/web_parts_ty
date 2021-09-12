@@ -72,7 +72,13 @@ column_1_ptn_001
 cont_parts_y_011
 ---------------------------------------------------------------------- */
 .cont_parts_y_011 {
-  padding: 100px 0;
+  padding-top: 100px;
+}
+
+@media (max-width: 600px) {
+  .cont_parts_y_011 {
+    padding-top: 64px;
+  }
 }
 
 .cont_parts_y_011 .wrapper {
@@ -104,7 +110,7 @@ cont_parts_y_011
 
 .cont_parts_y_011 .wrapper section .main_image img {
   width: 100%;
-  height: 600px;
+  height: 560px;
   object-fit: cover;
 }
 
@@ -120,8 +126,8 @@ cont_parts_y_011
   left: 0px;
   z-index: 10;
   padding: 0 40px;
-  width: 180px;
-  height: 180px;
+  width: 184px;
+  height: 184px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -133,15 +139,15 @@ cont_parts_y_011
 
 @media (max-width: 1050px) {
   .cont_parts_y_011 .wrapper section h2 {
-    padding: 0 15px;
-    width: 110px;
-    height: 110px;
+    padding: 0 16px;
+    width: 112px;
+    height: 112px;
   }
 }
 
 @media (max-width: 800px) {
   .cont_parts_y_011 .wrapper section h2 {
-    padding: 0 20px;
+    padding: 0 24px;
     font-size: 14px;
   }
 }
@@ -159,6 +165,7 @@ cont_parts_y_011
 @media (max-width: 700px) {
   .cont_parts_y_011 .wrapper section .cont_parts_y_011_slider {
     bottom: 20px;
+    height: auto;
   }
 }
 
@@ -176,9 +183,8 @@ cont_parts_y_011
 }
 
 .cont_parts_y_011 .wrapper section .cont_parts_y_011_slider a .sub_image {
-  width: 120px;
-  height: 120px;
-  border: 10px solid #fff;
+  width: 124px;
+  border: 8px solid #fff;
   overflow: hidden;
   margin: 0;
 }
@@ -191,30 +197,23 @@ cont_parts_y_011
 }
 
 .cont_parts_y_011 .wrapper section .cont_parts_y_011_slider a .sub_image img {
-  width: 100px;
-  height: 100px;
+  width: 100%;
+  height: 100%;
   display: block;
   object-fit: cover;
   transition: 0.5s;
 }
 
-@media (max-width: 700px) {
-  .cont_parts_y_011 .wrapper section .cont_parts_y_011_slider a .sub_image img {
-    width: 80px;
-    height: 80px;
-  }
-}
-
 .cont_parts_y_011 .wrapper section .cont_parts_y_011_slider a .inner {
-  padding: 20px 0 0 15px;
-  width: calc(100% - 119px);
+  padding: 24px 0 0 16px;
+  width: calc(100% - 124px);
   color: #fff;
 }
 
 @media (max-width: 700px) {
   .cont_parts_y_011 .wrapper section .cont_parts_y_011_slider a .inner {
     width: calc(100% - 100px);
-    padding: 0 0 0 15px;
+    padding: 0 0 0 16px;
   }
 }
 

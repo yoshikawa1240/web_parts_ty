@@ -1,6 +1,6 @@
 $(function () {
   $('.cont_parts_y_011_slider').slick({
-    autoplay: true,
+    // autoplay: true,
     // 自動再生
     autoplaySpeed: 5000,
     // 自動再生のスライド切り替えまでの時間をミリ秒で設定。
