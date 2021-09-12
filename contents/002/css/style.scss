@@ -103,6 +103,9 @@ cont_ty_002
             height: 296px;
             object-fit: cover;
             transition: .6s;
+            @media(max-width:600px){
+              height: 200px;
+            }
           }
         }
         header{

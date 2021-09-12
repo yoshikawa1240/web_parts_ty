@@ -145,6 +145,12 @@ cont_ty_002
   transition: .6s;
 }
 
+@media (max-width: 600px) {
+  .cont_ty_002 .wrapper section a .image img {
+    height: 200px;
+  }
+}
+
 .cont_ty_002 .wrapper section a header {
   position: absolute;
   top: 32px;
