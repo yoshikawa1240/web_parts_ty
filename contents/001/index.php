@@ -42,14 +42,6 @@
             <div class="icon"></div>
           </li>
         </a>
-        <a href="">
-          <li>
-            <div class="category">1 アカウント</div>
-            <div class="image"><img src="https://cdn.pixabay.com/photo/2014/08/15/11/29/beach-418742_1280.jpg" alt=""></div>
-            <p>タイトルが入ります<br>タイトルが入ります</p>
-            <div class="icon"></div>
-          </li>
-        </a>
       </ul>
     </section>
   </article>
