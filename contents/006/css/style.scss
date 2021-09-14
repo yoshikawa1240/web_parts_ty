@@ -52,15 +52,16 @@ column_1_ptn_001
 cont_ty_006
 ---------------------------------------------------------------------- */
 .cont_ty_006 {
-  padding: 100px 24px;
+  padding: 0 24px;
+  padding-top: 100px;
+  @media (max-width: 600px) {
+    padding-top: 64px;
+  }
   .cont_ty_006_wrapper {
     margin: 0 auto;
     max-width: 1000px;
     @media (max-width: 1200px) {
       width: 100%;
-    }
-    @media (max-width: 750px) {
-      padding: 100px 0;
     }
     /*----------------------------------------- 
       main_cont
@@ -83,16 +84,16 @@ cont_ty_006
         }
         .image {
           position: relative;
-          width: 750px;
-          height: 450px;
+          width: 720px;
+          height: 480px;
           overflow: hidden;
-          @media (max-width: 950px) {
+          @media (max-width: 1050px) {
             width: auto;
-            height: 450px;
+            height: 400px;
           }
           @media (max-width: 600px) {
             width: auto;
-            height: 250px;
+            height: 240px;
           }
           &::after {
             content: "";
@@ -117,16 +118,16 @@ cont_ty_006
           top: 50%;
           right: 0%;
           z-index: 1;
-          padding: 40px 30px;
-          width: calc(50% - 20px);
+          padding: 40px 32px;
+          width: calc(50% - 24px);
           background: #fff;
           transform: translateY(-50%);
           @media (max-width: 950px) {
             position: relative;
             left: 0%;
             bottom: 0%;
-            margin: -70px 20px;
-            padding: 20px 30px;
+            margin: -72px 24px;
+            padding: 24px 32px;
             width: auto;
             transform: translateY(0%);
           }
@@ -134,29 +135,29 @@ cont_ty_006
             position: relative;
             left: 0%;
             bottom: 0%;
-            margin: -40px 20px;
-            padding: 20px 20px;
+            margin: -40px 24px;
+            padding: 16px;
             width: auto;
             transform: translateY(0%);
           }
           .num_area {
-            margin-bottom: 10px;
+            margin-bottom: 8px;
             display: flex;
             align-items: flex-end;
             .num_ttl {
-              margin-right: 10px;
+              margin-right: 8px;
               font-size: 16px;
               color: #000;
             }
             .post_num {
               margin-bottom: -2px;
-              font-size: 30px;
+              font-size: 32px;
               color: #ff8000;
             }
           }
           h3 {
             line-height: 1.5em;
-            font-size: 26px;
+            font-size: 24px;
             font-weight: bold;
             @media (max-width: 750px) {
               font-size: 20px;
@@ -167,16 +168,14 @@ cont_ty_006
       .category {
         position: absolute;
         width: auto;
-        top: 15px;
-        left: 15px;
+        top: 16px;
+        left: 16px;
         z-index: 2;
-        padding: 0 20px;
+        padding: 8px 24px;
         display: block;
-        height: 30px;
         background: #fff;
-        line-height: 30px;
         border: 1px solid #000;
-        border-radius: 30px;
+        border-radius: 32px;
         font-size: 12px;
         color: #000;
       }
@@ -187,17 +186,17 @@ cont_ty_006
     .outer {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
-      gap: 60px 20px;
-      @media (max-width: 950px) {
+      gap: 64px 24px;
+      @media (max-width: 1050px) {
         grid-template-columns: repeat(2, 1fr);
       }
-      @media (max-width: 750px) {
+      @media (max-width: 600px) {
         grid-template-columns: repeat(1, 1fr);
-        gap: 20px;
+        gap: 24px;
       }
       section {
         position: relative;
-        margin: 0 0 35px 0;
+        margin: 0 0 32px 0;
         a {
           position: relative;
           width: 100%;
@@ -214,11 +213,8 @@ cont_ty_006
           .image {
             position: relative;
             width: 100%;
-            height: 196px;
+            height: 216px;
             overflow: hidden;
-            @media (max-width: 950px) {
-              height: 220px;
-            }
             &::after {
               content: "";
               position: absolute;
@@ -242,65 +238,63 @@ cont_ty_006
             left: 0%;
             bottom: 0%;
             z-index: 1;
-            margin: -70px 20px;
-            padding: 20px 30px;
+            margin: -72px 24px;
+            padding: 24px 32px;
             background: #fff;
             @media (max-width: 800px) {
               position: relative;
               left: 0%;
               bottom: 0%;
-              margin: -40px 20px;
-              padding: 20px 20px;
+              margin: -40px 24px;
+              padding: 24px;
             }
             .num_area {
-              margin-bottom: 10px;
+              margin-bottom: 8px;
               display: flex;
               align-items: flex-end;
               .num_ttl {
-                margin-right: 10px;
+                margin-right: 8px;
                 font-size: 16px;
                 color: #000;
               }
               .post_num {
                 margin-bottom: -2px;
-                font-size: 30px;
+                font-size: 32px;
                 color: #ff8000;
               }
             }
             h4 {
-              line-height: 1.6;
-              font-size: 18px;
+              line-height: 1.5;
+              font-size: 16px;
               font-weight: bold;
-              @media (max-width: 750px) {
-                font-size: 15px;
+              @media (max-width: 600px) {
+                font-size: 14px;
               }
             }
-            p{
-              margin-top: 15px;
+            p {
+              margin-top: 8px;
               line-height: 2;
-              font-size: 16px;
-              @media (max-width: 750px) {
-                margin-top: 10px;
-                font-size: 14px;
+              font-size: 14px;
+              @media (max-width: 600px) {
+                font-size: 12px;
               }
             }
           }
         }
         .category {
           position: absolute;
-          top: 15px;
-          left: 15px;
+          width: auto;
+          height: auto;
+          top: 16px;
+          left: 16px;
           z-index: 2;
-          padding: 0 20px;
-          height: 30px;
-          display: inline-block;
+          padding: 8px 24px;
+          display: block;
           background: #fff;
           border: 1px solid #000;
-          border-radius: 30px;
-          line-height: 30px;
+          border-radius: 32px;
           font-size: 12px;
           color: #000;
-          width: auto;
         }
       }
     }
