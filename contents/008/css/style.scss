@@ -54,16 +54,12 @@ cont_ty_008
 .cont_ty_008 {
   padding: 100px 24px;
   @media (max-width: 600px) {
-    padding: 0;
+    padding: 0 24px;
     padding-top: 64px;
   }
   .wrapper {
     margin: 0 auto;
     max-width: 1000px;
-    
-    @media (max-width: 600px) {
-      padding: 0 24px;
-    }
     h2 {
       line-height: 1.4em;
       font-size: 36px;
@@ -168,7 +164,7 @@ cont_ty_008
     }
     .link {
       margin: 0 auto;
-      max-width: 300px;
+      max-width: 320px;
       height: 64px;
       display: block;
       background: #78adce;
