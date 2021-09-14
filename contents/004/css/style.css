@@ -99,7 +99,7 @@ cont_ty_004
 
 .cont_ty_004 .wrapper section {
   position: relative;
-  padding: 65px 35px 35px 35px;
+  padding: 64px 32px 32px 32px;
   border: 1px solid #333;
 }
 
@@ -118,20 +118,20 @@ cont_ty_004
 }
 
 .cont_ty_004 .wrapper section .inner h2 {
-  margin-bottom: 35px;
+  margin-bottom: 32px;
   font-size: 24px;
 }
 
 .cont_ty_004 .wrapper section .inner p {
-  margin-bottom: 25px;
+  margin-bottom: 24px;
   font-size: 16px;
   line-height: 1.5;
 }
 
 .cont_ty_004 .wrapper section .inner a {
   margin: 0 auto;
-  width: 200px;
-  padding: 10px 20px;
+  max-width: 200px;
+  padding: 16px 24px;
   font-size: 16px;
   color: #333;
   display: block;
