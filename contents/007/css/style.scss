@@ -52,7 +52,8 @@ column_1_ptn_001
 cont_ty_007
 ---------------------------------------------------------------------- */
 .cont_ty_007 {
-  padding: 100px 24px;
+  padding: 0 24px;
+  padding-top: 100px;
   @media (max-width: 600px) {
     padding: 0;
     padding-top: 64px;
