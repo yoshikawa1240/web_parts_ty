@@ -162,7 +162,7 @@ cont_parts_y_011
   transform: translateX(-50%);
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   .cont_parts_y_011 .wrapper section .cont_parts_y_011_slider {
     bottom: 20px;
     height: auto;
@@ -189,7 +189,7 @@ cont_parts_y_011
   margin: 0;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   .cont_parts_y_011 .wrapper section .cont_parts_y_011_slider a .sub_image {
     width: 100px;
     height: 100px;

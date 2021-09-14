@@ -118,7 +118,7 @@ cont_parts_y_011
         width: 80%;
         height: 120px;
         transform: translateX(-50%);
-        @media (max-width: 700px) {
+        @media (max-width: 800px) {
           bottom: 20px;
           height: auto;
         }
@@ -138,7 +138,7 @@ cont_parts_y_011
             border: 8px solid #fff;
             overflow: hidden;
             margin: 0;
-            @media (max-width: 700px) {
+            @media (max-width: 800px) {
               width: 100px;
               height: 100px;
             }
