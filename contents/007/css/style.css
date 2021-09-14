@@ -103,7 +103,7 @@ cont_ty_007
 @media (max-width: 600px) {
   .cont_ty_007 .cont_ty_007_wrapper section a {
     margin: 0 -1px -1px 0;
-    padding: 20px 10px;
+    padding: 24px 16px;
   }
 }
 
@@ -116,7 +116,7 @@ cont_ty_007
 
 .cont_ty_007 .cont_ty_007_wrapper section a .image img {
   width: 100%;
-  height: 230px;
+  height: 240px;
   display: block;
   object-fit: cover;
   transition: .3s;
@@ -124,7 +124,7 @@ cont_ty_007
 
 @media (max-width: 600px) {
   .cont_ty_007 .cont_ty_007_wrapper section a .image img {
-    height: 105px;
+    height: 104px;
   }
 }
 
@@ -145,7 +145,7 @@ cont_ty_007
 @media (max-width: 600px) {
   .cont_ty_007 .cont_ty_007_wrapper section a .image .category {
     padding: 0 16px;
-    height: 30px;
+    height: 32px;
   }
 }
 
@@ -156,24 +156,24 @@ cont_ty_007
 }
 
 .cont_ty_007 .cont_ty_007_wrapper section a .outer .inner {
-  padding: 0 30px 0 40px;
+  padding: 0 32px 0 40px;
   width: 100%;
-}
-
-@media (max-width: 750px) {
-  .cont_ty_007 .cont_ty_007_wrapper section a .outer .inner {
-    padding: 0 20px 0 30px;
-  }
 }
 
 @media (max-width: 600px) {
   .cont_ty_007 .cont_ty_007_wrapper section a .outer .inner {
-    padding: 0 0 0 10px;
+    padding: 0 24px 0 32px;
+  }
+}
+
+@media (max-width: 500px) {
+  .cont_ty_007 .cont_ty_007_wrapper section a .outer .inner {
+    padding: 0 0 0 8px;
   }
 }
 
 .cont_ty_007 .cont_ty_007_wrapper section a .outer .inner h3 {
-  line-height: 1.8em;
+  line-height: 1.5;
   font-weight: bold;
   font-size: 18px;
   color: #333;
@@ -181,20 +181,19 @@ cont_ty_007
 
 @media (max-width: 600px) {
   .cont_ty_007 .cont_ty_007_wrapper section a .outer .inner h3 {
-    line-height: 1.4em;
     font-size: 14px;
   }
 }
 
 .cont_ty_007 .cont_ty_007_wrapper section a .outer .inner span {
-  margin-top: 7px;
+  margin-top: 8px;
   font-size: 12px;
   color: #999;
   display: block;
 }
 
 .cont_ty_007 .cont_ty_007_wrapper section a .outer .inner span::before {
-  margin-right: 0.2em;
+  margin-right: 4px;
   display: inline-block;
   font-family: "Font Awesome 5 Free";
   content: "\f017";
