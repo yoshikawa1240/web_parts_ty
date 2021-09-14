@@ -7,7 +7,7 @@
   <article class="cont_ty_003">
     <h2>タイトル</h2>
     <span>サブタイトル</span>
-    <div class="conts">
+    <div class="wrapper">
       <a href="" class="cont">
         <div class="image"><img src="https://cdn.pixabay.com/photo/2014/08/15/11/29/beach-418742_1280.jpg" alt=""></div>
         <div class="inner">

@@ -2,7 +2,7 @@
 column_2_ptn_001
 ---------------------------------------------------------------------- */
 .column_2_ptn_001 {
-  background: #EBF7FF;
+  background: #ebf7ff;
 }
 
 .column_2_ptn_001 .wrapper {
@@ -42,7 +42,7 @@ column_2_ptn_001
 column_1_ptn_001
 ---------------------------------------------------------------------- */
 .column_1_ptn_001 {
-  background: #EBF7FF;
+  background: #ebf7ff;
 }
 
 .column_1_ptn_001 .wrapper {
@@ -72,14 +72,21 @@ column_1_ptn_001
 cont_ty_003
 ---------------------------------------------------------------------- */
 .cont_ty_003 {
-  padding: 100px 20px;
+  padding: 0 24px;
+  padding-top: 100px;
+}
+
+@media (max-width: 600px) {
+  .cont_ty_003 {
+    padding-top: 64px;
+  }
 }
 
 .cont_ty_003 h2 {
   font-size: 24px;
   text-align: center;
   font-weight: 400;
-  letter-spacing: .15em;
+  letter-spacing: 0.15em;
   line-height: 1.4;
 }
 
@@ -87,68 +94,69 @@ cont_ty_003
   font-size: 14px;
   display: block;
   text-align: center;
-  letter-spacing: .1em;
+  letter-spacing: 0.1em;
   line-height: 1.3;
   margin-bottom: 30px;
 }
 
-.cont_ty_003 .conts {
-  max-width: 1250px;
+.cont_ty_003 .wrapper {
   margin: 0 auto 20px auto;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 20px;
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
 }
 
-.cont_ty_003 .conts .cont {
-  max-width: 280px;
+@media (max-width: 1050px) {
+  .cont_ty_003 .wrapper {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 @media (max-width: 800px) {
-  .cont_ty_003 .conts .cont {
-    max-width: 270px;
+  .cont_ty_003 .wrapper {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (max-width: 600px) {
-  .cont_ty_003 .conts .cont {
-    max-width: 100%;
+  .cont_ty_003 .wrapper {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 
-.cont_ty_003 .conts .cont:hover img {
+.cont_ty_003 .wrapper .cont:hover img {
   transform: scale(1.3);
 }
 
-.cont_ty_003 .conts .cont:hover .inner .date,
-.cont_ty_003 .conts .cont:hover .inner h3 {
+.cont_ty_003 .wrapper .cont:hover .inner .date,
+.cont_ty_003 .wrapper .cont:hover .inner h3 {
   opacity: 0.8;
 }
 
-.cont_ty_003 .conts .cont .image {
+.cont_ty_003 .wrapper .cont .image {
   overflow: hidden;
 }
 
-.cont_ty_003 .conts .cont .image img {
+.cont_ty_003 .wrapper .cont .image img {
   width: 100%;
   height: 145px;
   transition: 0.6s;
   object-fit: cover;
 }
 
-.cont_ty_003 .conts .cont .image img::before {
+.cont_ty_003 .wrapper .cont .image img::before {
   content: "";
   display: block;
   padding-top: 100%;
 }
 
-.cont_ty_003 .conts .cont .inner {
+.cont_ty_003 .wrapper .cont .inner {
   padding: 24px;
   background: #ebebe2;
 }
 
-.cont_ty_003 .conts .cont .inner .date {
+.cont_ty_003 .wrapper .cont .inner .date {
   font-size: 14px;
   letter-spacing: 0.1em;
   font-weight: 700;
@@ -160,7 +168,7 @@ cont_ty_003
   transition-timing-function: ease-in-out;
 }
 
-.cont_ty_003 .conts .cont .inner h3 {
+.cont_ty_003 .wrapper .cont .inner h3 {
   letter-spacing: 0.08em;
   font-size: 16px;
   letter-spacing: 0.025em;
@@ -183,11 +191,11 @@ cont_ty_003
   border: 1px solid #000;
   font-size: 12px;
   line-height: 1.5;
-  letter-spacing: .05em;
+  letter-spacing: 0.05em;
   font-weight: 500;
   display: inline-block;
-  -webkit-transition: all .3s ease-in-out;
-  transition: all .3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .cont_ty_003 .btn a:hover {
