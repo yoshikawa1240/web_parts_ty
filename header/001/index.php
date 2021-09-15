@@ -1,28 +1,19 @@
-<!DOCTYPE html>
-<html lang="ja">
+<link rel="stylesheet" href="<?php echo $home_url; ?>/web_parts_ty/header/001/css/reset.min.css" );>
+<link rel="stylesheet" href="<?php echo $home_url; ?>/web_parts_ty/header/001/css/style.min.css" );>
+<!-- slick.css -->
+<link rel="stylesheet" href="<?php echo $home_url; ?>/web_parts_ty/header/001/css/slick.css" );>
+<!-- jQuery_CDN -->
+<script src="https://code.jquery.com/jquery-3.6.0.js"integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<!-- slick.js -->
+<script src="<?php echo $home_url; ?>/web_parts_ty/header/001/js/slick.min.js" );></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.min.js"></script>
+<!-- base.js -->
+<script src="<?php echo $home_url; ?>/web_parts_ty/header/001/js/base.js" );></script>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>hdr_parts_y_001</title>
-  <link rel="stylesheet" href="./css/reset.css">
-  <link rel="stylesheet" href="./css/style.css">
-  <!-- FontAwesome -->
-  <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
-  <!-- GoogleFont -->
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200;400;500;700;900&display=swap"
-    rel="stylesheet">
-  <!-- slick.css_cdn -->
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css">
-</head>
-
-<body>
   <!-------------- 
-    hdr_parts_y_001
+    hdr_ty_001
   ---------------->
-  <div class="hdr_parts_y_001">
+  <div class="hdr_ty_001">
     <header class="hdr">
       <!-- ロゴ -->
       <a class="hdr_logo" href="">LOGO</a>
@@ -209,101 +200,3 @@
       <div class="filter"></div>
     </header>
   </div>
-
-  <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-  <script type="text/javascript"
-    src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
-
-
-  <script>
-    $(function () {
-      $(".list_01").mouseover(function () {
-        $("ul", this).stop().slideDown(300),
-          $(".link_01").addClass("link_color_01")
-      }).mouseout(function () {
-        $("ul", this).stop().slideUp(150),
-          $(".link_01").removeClass("link_color_01")
-      });
-    });
-    $(function () {
-      $(".list_03").mouseover(function () {
-        $("ul", this).stop().slideDown(300),
-          $(".link_03").addClass("link_color_03")
-      }).mouseout(function () {
-        $("ul", this).stop().slideUp(150),
-          $(".link_03").removeClass("link_color_03")
-      });
-    });
-    $(function () {
-      $(".list_04").mouseover(function () {
-        $(".service_guid", this).stop().fadeIn(),
-          $(".link_04").addClass("link_color_04")
-      }).mouseout(function () {
-        $(".service_guid", this).stop().fadeOut(),
-          $(".link_04").removeClass("link_color_04")
-      });
-    });
-    $(function () {
-      $(".list_06").mouseover(function () {
-        $(".hdr_blog", this).stop().fadeIn(),
-          $(".link_06").addClass("link_color_06")
-      }).mouseout(function () {
-        $(".hdr_blog", this).stop().fadeOut(),
-          $(".link_06").removeClass("link_color_06")
-      });
-    });
-    // ナビゲーションボタンをクリック
-    $(function () {
-      $(".nav_btn").on("click", function () {
-        $(this).toggleClass("nav_btn_close"),
-          $(".nav_sp").toggleClass("nav_sp_display"),
-          $(".filter").toggleClass("filter_display")
-      });
-    });
-    // フィルターをクリック
-    $(function () {
-      $(document).on("click", ".filter_display", function () {
-        $(".nav_sp").removeClass("nav_sp_display"),
-          $(".nav_btn").removeClass("nav_btn_close"),
-          $(".filter").removeClass("filter_display")
-      });
-    });
-    $(function () {
-      $(".nav_sp > ul > .sp_list_01").on("click", ".chevron_down_01", function () {
-        $(".sp_list_01 > ul").slideDown(),
-          $(".chevron_down_01").addClass("chevron_up_01")
-      }),
-        $(".nav_sp > ul >  .sp_list_01").on("click", ".chevron_up_01", function () {
-          $(".sp_list_01 > ul").slideUp(),
-            $(".chevron_down_01").removeClass("chevron_up_01")
-        });
-    });
-    $(function () {
-      $(".nav_sp > ul").on("click", ".chevron_down_03", function () {
-        $(".sp_list_03 > ul").slideDown(),
-          $(".chevron_down_03").addClass("chevron_up_03")
-      }),
-        $(".nav_sp > ul").on("click", ".chevron_up_03", function () {
-          $(".sp_list_03 > ul").slideUp(),
-            $(".chevron_down_03").removeClass("chevron_up_03")
-        });
-    });
-    $(function () {
-      $(".chevron_down_01").mouseover(function () {
-        $(this).addClass("chevron_down_bg_01")
-      }), $(".chevron_down_01").mouseout(function () {
-        $(this).removeClass("chevron_down_bg_01")
-      });
-    });
-    $(function () {
-      $(".chevron_down_03").mouseover(function () {
-        $(this).addClass("chevron_down_bg_03")
-      }), $(".chevron_down_03").mouseout(function () {
-        $(this).removeClass("chevron_down_bg_03")
-      });
-    });
-  </script>
-
-</body>
-
-</html>
