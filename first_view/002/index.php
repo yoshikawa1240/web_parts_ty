@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>fv_parts_y_002</title>
+  <title>fv_ty_002</title>
   <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/style.css">
   <!-- FontAwesome -->
@@ -20,9 +20,9 @@
 
 <body>
   <!-------------- 
-    fv_parts_y_002
+    fv_ty_002
   ---------------->
-  <div class="fv_parts_y_002">
+  <div class="fv_ty_002">
     <div class="wrapper">
       <div class="fv_slick">
         <div class="image"><img src="https://cdn.pixabay.com/photo/2021/07/16/18/28/czech-republic-6471576_1280.jpg"
