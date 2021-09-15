@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="<?php echo $home_url; ?>/web_parts_ty/header/001/css/reset.min.css" );>
+<link rel="stylesheet" href="<?php echo $home_url; ?>/web_parts_ty/information/001/css/reset.min.css" );>
 <link rel="stylesheet" href="<?php echo $home_url; ?>/web_parts_ty/information/001/css/style.min.css" );>
 
   <!-------------- 
