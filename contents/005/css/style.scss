@@ -88,10 +88,6 @@ cont_ty_005
       display: block;
       color: #333;
       height: auto;
-      margin: 0 16px;
-      @media (max-width: 1050px) {
-        margin: 0 8px;
-      }
       .image {
         img {
           width: 100%;
@@ -113,22 +109,20 @@ cont_ty_005
       }
     }
     // スライドの矢印
-    .slick-prev, .slick-next {
-      @media (max-width: 600px) {
-        display: none !important;
-      }
+    .slick-prev {
       position: absolute;
-      top: 40%;
-      left: 24px;
-      z-index: 100;
+      top: 0;
+      bottom: 0;
+      left: 16px;
       background: none;
       font-size: 0;
       border: none;
       &::before {
         content: "";
         position: absolute;
-        top: 12px;
-        right: 10%;
+        top: 0;
+        bottom: 0;
+        left: 0;
         margin: auto;
         width: 16px;
         height: 16px;
@@ -136,17 +130,42 @@ cont_ty_005
         border-color: transparent transparent #333 #333;
         transform: rotate(45deg);
         transition: 0.3s;
+        @media (max-width: 600px) {
+          display: none !important;
+        }
       }
       &:focus {
         outline: none;
       }
     }
+    // スライドの矢印
     .slick-next {
+      position: absolute;
+      top: 0;
+      bottom: 0;
       right: 24px;
-      left: auto;
+      background: none;
+      font-size: 0;
+      border: none;
       &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+        width: 16px;
+        height: 16px;
+        border: 2px solid;
         border-color: transparent #333 #333 transparent;
         transform: rotate(-45deg);
+        transition: 0.3s;
+        @media (max-width: 600px) {
+          display: none !important;
+        }
+      }
+      &:focus {
+        outline: none;
       }
     }
   }
