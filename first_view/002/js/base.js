@@ -95,12 +95,9 @@ $(function () {
 $(function () {
   $('.fv_slick').slick({ //{}を入れる
     fade: true,
-    // autoplay: true, //自動再生
+    autoplay: true, //自動再生
     arrows: false, //矢印非表示
-    dots: true, //ドット状のナビを表示
     slidesToShow: 1, //表示するスライド数
     slidesToScroll: 1, //1回で動くスライド数
-    //「オプション名: 値」の形式で書く
-    //複数書く場合は「,」でつなぐ
   });
 });

@@ -55,7 +55,10 @@ fv_ty_002
   .wrapper {
     position: relative;
     width: 100%;
-    height: 100%;
+    height: 720px;
+    @media(max-width: 850px){
+      height: 560px;
+    }
     .fv_slick {
       width: 100%;
       .image {
@@ -63,25 +66,14 @@ fv_ty_002
         height: 100%;
         img {
           width: 100%;
-          height: 720px;
+          height: 100%;
           object-fit: cover;
-          @media(max-width: 850px){
-            height: 560px;
-          }
-        }
-      }
-      .slick-dots{
-        li{
-          margin: 0;
-        }
-        @media(max-width: 850px){
-          display: none!important;
         }
       }
     }
     .inner_wrapper {
       position: absolute;
-      top: 50%;
+      top: 60%;
       left: 0;
       z-index: 1;
       padding: 0 56px;
@@ -90,12 +82,8 @@ fv_ty_002
       align-items: flex-end;
       font-weight: bold;
       color: #fff;
-      @media(max-width: 850px){
-        top: 40%;
-        padding: 0 24px;
-      }
       @media(max-width: 600px){
-        top: 30%;
+        top: 50%;
         padding: 0 24px;
       }
       .inner {

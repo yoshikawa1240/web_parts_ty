@@ -1,5 +1,5 @@
-<link rel="stylesheet" href="<?php echo $home_url; ?>/web_parts_ty/first_view/002/css/style.min.css" );>
 <link rel="stylesheet" href="<?php echo $home_url; ?>/web_parts_ty/first_view/002/css/reset.min.css" );>
+<link rel="stylesheet" href="<?php echo $home_url; ?>/web_parts_ty/first_view/002/css/style.min.css" );>
 <!-- slick.css -->
 <link rel="stylesheet" href="<?php echo $home_url; ?>/web_parts_ty/first_view/002/css/slick.css" );>
 <!-- jQuery_CDN -->
