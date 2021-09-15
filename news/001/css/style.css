@@ -69,56 +69,56 @@ column_1_ptn_001
 }
 
 /* ----------------------------------------------------------------------
-news_parts_y_001
+news_ty_001
 ---------------------------------------------------------------------- */
-.news_parts_y_001 {
+.news_ty_001 {
   padding: 100px 40px;
   color: #222;
   background: #f1f2f6;
 }
 
 @media (max-width: 750px) {
-  .news_parts_y_001 {
+  .news_ty_001 {
     padding: 100px 24px;
   }
 }
 
-.news_parts_y_001 section {
+.news_ty_001 section {
   max-width: 1200px;
   margin: 0 auto;
 }
 
-.news_parts_y_001 section h2 {
+.news_ty_001 section h2 {
   font-size: 40px;
   line-height: 1.5;
   text-align: center;
 }
 
 @media (max-width: 550px) {
-  .news_parts_y_001 section h2 {
+  .news_ty_001 section h2 {
     font-size: 32px;
   }
 }
 
-.news_parts_y_001 section span {
+.news_ty_001 section span {
   font-size: 16px;
   text-align: center;
   display: block;
 }
 
 @media (max-width: 550px) {
-  .news_parts_y_001 section span {
+  .news_ty_001 section span {
     font-size: 12px;
   }
 }
 
-.news_parts_y_001 section .tab_area {
+.news_ty_001 section .tab_area {
   display: flex;
   justify-content: center;
   margin-top: 24px;
 }
 
-.news_parts_y_001 section .tab_area .tab {
+.news_ty_001 section .tab_area .tab {
   cursor: pointer;
   margin: 0 24px;
   text-align: center;
@@ -127,13 +127,13 @@ news_parts_y_001
 }
 
 @media (max-width: 550px) {
-  .news_parts_y_001 section .tab_area .tab {
+  .news_ty_001 section .tab_area .tab {
     margin: 0 16px;
     font-size: 12px;
   }
 }
 
-.news_parts_y_001 section .tab_area .tab::after {
+.news_ty_001 section .tab_area .tab::after {
   position: absolute;
   bottom: -4px;
   left: 0;
@@ -146,18 +146,18 @@ news_parts_y_001
   transition: transform 0.5s;
 }
 
-.news_parts_y_001 section .tab_area .tab:hover::after {
+.news_ty_001 section .tab_area .tab:hover::after {
   transform-origin: left top;
   transform: scale(1, 1);
 }
 
-.news_parts_y_001 section .tab_area .tab.active {
+.news_ty_001 section .tab_area .tab.active {
   padding-bottom: 8px;
   color: #222e3e;
   position: relative;
 }
 
-.news_parts_y_001 section .tab_area .tab.active::before {
+.news_ty_001 section .tab_area .tab.active::before {
   position: absolute;
   bottom: -4px;
   left: 0;
@@ -167,20 +167,20 @@ news_parts_y_001
   background: #333;
 }
 
-.news_parts_y_001 section .tab_area .tab.active::after {
+.news_ty_001 section .tab_area .tab.active::after {
   transform: scale(1, 1);
 }
 
-.news_parts_y_001 section .news_area {
+.news_ty_001 section .news_area {
   max-width: 800px;
   margin: 0 auto;
 }
 
-.news_parts_y_001 section .news_area .news {
+.news_ty_001 section .news_area .news {
   display: none;
 }
 
-.news_parts_y_001 section .news_area .news a {
+.news_ty_001 section .news_area .news a {
   display: flex;
   font-size: 16px;
   padding: 16px 0;
@@ -188,29 +188,29 @@ news_parts_y_001
 }
 
 @media (max-width: 750px) {
-  .news_parts_y_001 section .news_area .news a {
+  .news_ty_001 section .news_area .news a {
     display: block;
   }
 }
 
 @media (max-width: 550px) {
-  .news_parts_y_001 section .news_area .news a {
+  .news_ty_001 section .news_area .news a {
     font-size: 14px;
   }
 }
 
-.news_parts_y_001 section .news_area .news a .inner {
+.news_ty_001 section .news_area .news a .inner {
   display: flex;
 }
 
-.news_parts_y_001 section .news_area .news a .inner .date {
+.news_ty_001 section .news_area .news a .inner .date {
   color: #222;
   margin-right: 24px;
   display: flex;
   align-items: center;
 }
 
-.news_parts_y_001 section .news_area .news a .inner .category {
+.news_ty_001 section .news_area .news a .inner .category {
   color: #00349d;
   margin-right: 24px;
   padding: 4px 16px;
@@ -221,7 +221,7 @@ news_parts_y_001
   align-items: center;
 }
 
-.news_parts_y_001 section .news_area .news a .ttl {
+.news_ty_001 section .news_area .news a .ttl {
   display: flex;
   align-items: center;
   color: #222;
@@ -229,12 +229,12 @@ news_parts_y_001
 }
 
 @media (max-width: 750px) {
-  .news_parts_y_001 section .news_area .news a .ttl {
+  .news_ty_001 section .news_area .news a .ttl {
     margin-top: 8px;
   }
 }
 
-.news_parts_y_001 section .news_area .news.show {
+.news_ty_001 section .news_area .news.show {
   margin-top: 50px;
   display: block;
 }

@@ -1,28 +1,14 @@
-<!DOCTYPE html>
-<html lang="ja">
+<link rel="stylesheet" href="<?php echo $home_url; ?>/web_parts_ty/news/001/css/reset.min.css" );>
+<link rel="stylesheet" href="<?php echo $home_url; ?>/web_parts_ty/news/001/css/style.min.css" );>
+<!-- jQuery_CDN -->
+<script src="https://code.jquery.com/jquery-3.6.0.js"integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<!-- base.js -->
+<script src="<?php echo $home_url; ?>/web_parts_ty/news/001/js/base.js" );></script>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>news_parts_y_001</title>
-  <link rel="stylesheet" href="./css/reset.css">
-  <link rel="stylesheet" href="./css/style.css">
-  <!-- FontAwesome -->
-  <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
-  <!-- GoogleFont -->
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200;400;500;700;900&display=swap"
-    rel="stylesheet">
-  <!-- slick.css_cdn -->
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css">
-</head>
-
-<body>
   <!-------------- 
-    news_parts_y_001
+    news_ty_001
   ---------------->
-  <article class="news_parts_y_001">
+  <article class="news_ty_001">
     <section>
       <h2>NEWS</h2>
       <span>最新情報</span>
@@ -104,24 +90,3 @@
       </div>
     </section>
   </article>
-
-  <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-  <script type="text/javascript"
-    src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
-
-
-</body>
-
-<script>
-  $(function () {
-    let tabs = $(".tab"); // tabのクラスを全て取得し、変数tabsに配列で定義
-    $(".tab").on("click", function () { // tabをクリックしたらイベント発火
-      $(".active").removeClass("active"); // activeクラスを消す
-      $(this).addClass("active"); // クリックした箇所にactiveクラスを追加
-      const index = tabs.index(this); // クリックした箇所がタブの何番目か判定し、定数indexとして定義
-      $(".news").removeClass("show").eq(index).addClass("show"); // showクラスを消して、contentクラスのindex番目にshowクラスを追加
-    })
-  })
-</script>
-
-</html>
