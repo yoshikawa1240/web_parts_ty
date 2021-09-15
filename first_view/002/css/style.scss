@@ -81,7 +81,7 @@ fv_ty_002
     }
     .inner_wrapper {
       position: absolute;
-      top: 60%;
+      top: 50%;
       left: 0;
       z-index: 1;
       padding: 0 56px;
@@ -91,7 +91,11 @@ fv_ty_002
       font-weight: bold;
       color: #fff;
       @media(max-width: 850px){
-        top: 50%;
+        top: 40%;
+        padding: 0 24px;
+      }
+      @media(max-width: 600px){
+        top: 30%;
         padding: 0 24px;
       }
       .inner {
