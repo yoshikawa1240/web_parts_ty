@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>fv_parts_y_001</title>
+  <title>fv_ty_001</title>
   <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/style.css">
   <!-- FontAwesome -->
@@ -20,10 +20,10 @@
 
 <body>
   <!-------------- 
-    contact_parts_y_001
+    fv_ty_001
   ---------------->
-  <div class="fv_parts_y_001">
-    <div class="fv_parts_y_001_wrapper">
+  <div class="fv_ty_001">
+    <div class="wrapper">
       <div class="image"><img src="https://cdn.pixabay.com/photo/2019/06/12/21/10/ocean-4270251_1280.jpg" alt=""></div>
       <div class="inner">
         <span>Web Production for BtoB.</span>
