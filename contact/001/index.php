@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>contact_parts_y_001</title>
+  <title>contact_ty_001</title>
   <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/style.css">
   <!-- FontAwesome -->
@@ -20,9 +20,9 @@
 
 <body>
   <!-------------- 
-    contact_parts_y_001
+    contact_ty_001
   ---------------->
-  <article class="contact_parts_y_001">
+  <article class="contact_ty_001">
     <h2>Webサイトに関することなら<br>
       お気軽にご相談ください</h2>
     <span>Please feel free to contact us about web site</span>

@@ -69,40 +69,34 @@ column_1_ptn_001
 }
 
 /* ----------------------------------------------------------------------
-contact_parts_y_001
+contact_ty_001
 ---------------------------------------------------------------------- */
-.contact_parts_y_001 {
-  padding: 100px 40px;
+.contact_ty_001 {
+  padding: 100px 24px;
   background: #3e3a37;
   font-weight: bold;
   color: #fff;
 }
 
-@media (max-width: 750px) {
-  .contact_parts_y_001 {
-    padding: 100px 48px;
+@media (max-width: 600px) {
+  .contact_ty_001 {
+    padding: 64px 24px;
   }
 }
 
-@media (max-width: 550px) {
-  .contact_parts_y_001 {
-    padding: 100px 24px;
-  }
-}
-
-.contact_parts_y_001 h2 {
+.contact_ty_001 h2 {
   text-align: center;
   line-height: 1.5;
   font-size: 32px;
 }
 
-@media (max-width: 750px) {
-  .contact_parts_y_001 h2 {
+@media (max-width: 600px) {
+  .contact_ty_001 h2 {
     font-size: 24px;
   }
 }
 
-.contact_parts_y_001 span {
+.contact_ty_001 span {
   margin-top: 8px;
   display: block;
   text-align: center;
@@ -110,13 +104,13 @@ contact_parts_y_001
   color: #9f9d9b;
 }
 
-@media (max-width: 750px) {
-  .contact_parts_y_001 span {
+@media (max-width: 600px) {
+  .contact_ty_001 span {
     font-size: 12px;
   }
 }
 
-.contact_parts_y_001 .contact_wrapper {
+.contact_ty_001 .contact_wrapper {
   margin: 32px auto 0 auto;
   max-width: 600px;
   display: grid;
@@ -124,33 +118,33 @@ contact_parts_y_001
   gap: 40px;
 }
 
-@media (max-width: 750px) {
-  .contact_parts_y_001 .contact_wrapper {
+@media (max-width: 600px) {
+  .contact_ty_001 .contact_wrapper {
     grid-template-columns: repeat(1, 1fr);
     gap: 20px;
   }
 }
 
-.contact_parts_y_001 .contact_wrapper section {
+.contact_ty_001 .contact_wrapper section {
   margin: 0 auto;
   max-width: 1200px;
 }
 
-.contact_parts_y_001 .contact_wrapper section .left_cont,
-.contact_parts_y_001 .contact_wrapper section .right_cont {
+.contact_ty_001 .contact_wrapper section .left_cont,
+.contact_ty_001 .contact_wrapper section .right_cont {
   position: relative;
   display: block;
   color: #fff;
   transition: .3s;
 }
 
-.contact_parts_y_001 .contact_wrapper section .left_cont:hover,
-.contact_parts_y_001 .contact_wrapper section .right_cont:hover {
+.contact_ty_001 .contact_wrapper section .left_cont:hover,
+.contact_ty_001 .contact_wrapper section .right_cont:hover {
   background: #333;
 }
 
-.contact_parts_y_001 .contact_wrapper section .left_cont::after,
-.contact_parts_y_001 .contact_wrapper section .right_cont::after {
+.contact_ty_001 .contact_wrapper section .left_cont::after,
+.contact_ty_001 .contact_wrapper section .right_cont::after {
   content: "1";
   position: absolute;
   top: 24px;
@@ -161,27 +155,27 @@ contact_parts_y_001
   color: #9f9d9b;
 }
 
-.contact_parts_y_001 .contact_wrapper section .left_cont .inner,
-.contact_parts_y_001 .contact_wrapper section .right_cont .inner {
+.contact_ty_001 .contact_wrapper section .left_cont .inner,
+.contact_ty_001 .contact_wrapper section .right_cont .inner {
   padding: 80px 16px 24px 16px;
   border: 1px solid #fff;
   text-align: center;
 }
 
-.contact_parts_y_001 .contact_wrapper section .left_cont .inner h3,
-.contact_parts_y_001 .contact_wrapper section .right_cont .inner h3 {
+.contact_ty_001 .contact_wrapper section .left_cont .inner h3,
+.contact_ty_001 .contact_wrapper section .right_cont .inner h3 {
   line-height: 1.5;
   font-size: 18px;
 }
 
-.contact_parts_y_001 .contact_wrapper section .left_cont .inner p,
-.contact_parts_y_001 .contact_wrapper section .right_cont .inner p {
+.contact_ty_001 .contact_wrapper section .left_cont .inner p,
+.contact_ty_001 .contact_wrapper section .right_cont .inner p {
   line-height: 2;
   font-size: 14px;
 }
 
-.contact_parts_y_001 .contact_wrapper section .left_cont span,
-.contact_parts_y_001 .contact_wrapper section .right_cont span {
+.contact_ty_001 .contact_wrapper section .left_cont span,
+.contact_ty_001 .contact_wrapper section .right_cont span {
   margin: -1px 0 0 0;
   padding: 16px;
   display: block;
@@ -190,29 +184,29 @@ contact_parts_y_001
   color: #fff;
 }
 
-.contact_parts_y_001 .contact_wrapper section .right_cont::after {
+.contact_ty_001 .contact_wrapper section .right_cont::after {
   content: "2";
 }
 
-.contact_parts_y_001 .contact_tel {
+.contact_ty_001 .contact_tel {
   text-align: center;
 }
 
-.contact_parts_y_001 .contact_tel p {
+.contact_ty_001 .contact_tel p {
   margin-bottom: 8px;
   line-height: 1.5;
   font-size: 14px;
 }
 
-.contact_parts_y_001 .contact_tel p:nth-of-type(1) {
+.contact_ty_001 .contact_tel p:nth-of-type(1) {
   margin-top: 56px;
   font-weight: normal;
 }
 
-.contact_parts_y_001 .contact_tel p:nth-of-type(2) {
+.contact_ty_001 .contact_tel p:nth-of-type(2) {
   font-size: 40px;
 }
 
-.contact_parts_y_001 .contact_tel p:nth-of-type(3) {
+.contact_ty_001 .contact_tel p:nth-of-type(3) {
   font-weight: normal;
 }

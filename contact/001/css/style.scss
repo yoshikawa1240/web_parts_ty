@@ -49,24 +49,21 @@ column_1_ptn_001
   }
 }
 /* ----------------------------------------------------------------------
-contact_parts_y_001
+contact_ty_001
 ---------------------------------------------------------------------- */
-.contact_parts_y_001 {
-  padding: 100px 40px;
+.contact_ty_001 {
+  padding: 100px 24px;
   background: #3e3a37;
   font-weight: bold;
   color: #fff;
-  @media (max-width: 750px) {
-    padding: 100px 48px;
-  }
-  @media (max-width: 550px) {
-    padding: 100px 24px;
+  @media (max-width: 600px) {
+    padding: 64px 24px;
   }
   h2 {
     text-align: center;
     line-height: 1.5;
     font-size: 32px;
-    @media (max-width: 750px) {
+    @media (max-width: 600px) {
       font-size: 24px;
     }
   }
@@ -76,7 +73,7 @@ contact_parts_y_001
     text-align: center;
     font-size: 16px;
     color: #9f9d9b;
-    @media (max-width: 750px) {
+    @media (max-width: 600px) {
       font-size: 12px;
     }
   }
@@ -86,7 +83,7 @@ contact_parts_y_001
     display: grid;
     grid-template-columns: repeat(2 , 1fr);
     gap: 40px;
-    @media (max-width: 750px) {
+    @media (max-width: 600px) {
       grid-template-columns: repeat(1 , 1fr);
       gap: 20px;
     }
