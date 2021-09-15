@@ -72,12 +72,13 @@ fv_ty_001
       z-index: 0;
       width: 68%;
       height: 100%;
-      @media (max-width: 1050px) {
+      @media (max-width: 1250px) {
         width: 60%;
       }
       @media (max-width: 950px) {
         width: 100%;
         position: static;
+        height: 400px;
       }
       &::before {
         content: "";
@@ -93,6 +94,7 @@ fv_ty_001
         width: 100%;
         height: 100%;
         object-fit: cover;
+        
       }
     }
     .inner {
@@ -101,7 +103,7 @@ fv_ty_001
       padding-top: 64px;
       width: 560px;
       font-weight: bold;
-      @media (max-width: 1050px) {
+      @media (max-width: 1250px) {
         width: 480px;
       }
       @media (max-width: 950px) {
@@ -117,7 +119,7 @@ fv_ty_001
         display: block;
         font-size: 24px;
         color: #a48c61;
-        @media (max-width: 1050px) {
+        @media (max-width: 1250px) {
           font-size: 20px;
         }
         @media (max-width: 950px) {
@@ -129,7 +131,7 @@ fv_ty_001
         margin-bottom: 40px;
         line-height: 1.2;
         font-size: 64px;
-        @media (max-width: 1050px) {
+        @media (max-width: 1250px) {
           font-size: 56px;
         }
         @media (max-width: 950px) {
@@ -146,7 +148,7 @@ fv_ty_001
         line-height: 2;
         font-weight: normal;
         font-size: 16px;
-        @media (max-width: 1050px) {
+        @media (max-width: 1250px) {
           font-size: 14px;
         }
         @media (max-width: 950px) {

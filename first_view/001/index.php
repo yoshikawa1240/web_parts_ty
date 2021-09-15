@@ -1,24 +1,6 @@
-<!DOCTYPE html>
-<html lang="ja">
+<link rel="stylesheet" href="<?php echo $home_url; ?>/web_parts_ty/first_view/001/css/style.min.css" );>
+<link rel="stylesheet" href="<?php echo $home_url; ?>/web_parts_ty/first_view/001/css/reset.min.css" );>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>fv_ty_001</title>
-  <link rel="stylesheet" href="./css/reset.css">
-  <link rel="stylesheet" href="./css/style.css">
-  <!-- FontAwesome -->
-  <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
-  <!-- GoogleFont -->
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200;400;500;700;900&display=swap"
-    rel="stylesheet">
-  <!-- slick.css_cdn -->
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css">
-</head>
-
-<body>
   <!-------------- 
     fv_ty_001
   ---------------->
@@ -26,8 +8,8 @@
     <div class="wrapper">
       <div class="image"><img src="https://cdn.pixabay.com/photo/2019/06/12/21/10/ocean-4270251_1280.jpg" alt=""></div>
       <div class="inner">
-        <span>Web Production for BtoB.</span>
-        <h1>BtoB企業のための<br>
+        <span>Web Production</span>
+        <h1>企業のための<br>
           web制作会社</h1>
         <p>
           テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
@@ -36,12 +18,3 @@
       </div>
     </div>
   </div>
-
-  <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-  <script type="text/javascript"
-    src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
-
-
-</body>
-
-</html>
