@@ -11,9 +11,9 @@
 <script src="<?php echo $home_url; ?>/web_parts_ty/contents/011/js/base.js" );></script>
 
   <!-------------- 
-    cont_ty_011
+    cont_parts_y_011
   ---------------->
-  <article class="cont_ty_011">
+  <article class="cont_parts_y_011">
     <div class="wrapper">
       <section>
         <div class="main_image"><img src="https://cdn.pixabay.com/photo/2016/08/09/21/54/lake-1581879_1280.jpg" alt="">
