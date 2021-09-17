@@ -14,70 +14,11 @@
     cont_ty_013
   ---------------->
   <article class="cont_ty_013">
-    <div class="wrapper">
       <section>
-        <div class="main_image"><img src="https://cdn.pixabay.com/photo/2016/08/09/21/54/lake-1581879_1280.jpg" alt="">
-        </div>
-        <h2>タイトルを入力</h2>
-        <div class="cont_parts_y_011_slider">
-          <a href="">
-            <div class="sub_image"><img
-                src="https://cdn.pixabay.com/photo/2016/10/16/13/44/young-woman-1745173_1280.jpg" alt=""></div>
-            <div class="inner">
-              <p>2021.01.01</p>
-              <h3>タイトルをここに入力タイトルをここに入力タイトルをここに入力</h3>
-            </div>
-          </a>
-          <a href="">
-            <div class="sub_image"><img
-                src="https://cdn.pixabay.com/photo/2016/10/16/13/44/young-woman-1745173_1280.jpg" alt=""></div>
-            <div class="inner">
-              <p>2021.01.01</p>
-              <h3>タイトルをここに入力タイトルをここに入力タイトルをここに入力</h3>
-            </div>
-          </a>
-          <a href="">
-            <div class="sub_image"><img
-                src="https://cdn.pixabay.com/photo/2016/10/16/13/44/young-woman-1745173_1280.jpg" alt=""></div>
-            <div class="inner">
-              <p>2021.01.01</p>
-              <h3>タイトルをここに入力タイトルをここに入力タイトルをここに入力</h3>
-            </div>
-          </a>
+        <div class="image"><img src="https://cdn.pixabay.com/photo/2021/08/03/14/07/river-6519572_1280.jpg" alt=""></div>
+        <div class="inner">
+          <h2>ここにタイトルを入力ここにタイトルを入力ここにタイトルを入力</h2>
+          <p>ここにテキストを入力ここにテキストを入力ここにテキストを入力ここにテキストを入力ここにテキストを入力ここにテキストを入力ここにテキストを入力ここにテキストを入力</p>
         </div>
       </section>
-
-      <section>
-        <div class="main_image"><img src="https://cdn.pixabay.com/photo/2016/08/09/21/54/lake-1581879_1280.jpg" alt="">
-        </div>
-        <h2>タイトルを入力</h2>
-        <div class="cont_parts_y_011_slider">
-          <a href="">
-            <div class="sub_image"><img src="https://cdn.pixabay.com/photo/2016/01/19/14/56/woman-1149088_1280.jpg"
-                alt=""></div>
-            <div class="inner">
-              <p>2021.01.01</p>
-              <h3>タイトルをここに入力タイトルをここに入力タイトルをここに入力</h3>
-            </div>
-          </a>
-          <a href="">
-            <div class="sub_image"><img src="https://cdn.pixabay.com/photo/2016/01/19/14/56/woman-1149088_1280.jpg"
-                alt=""></div>
-            <div class="inner">
-              <p>2021.01.01</p>
-              <h3>タイトルをここに入力タイトルをここに入力タイトルをここに入力</h3>
-            </div>
-          </a>
-          <a href="">
-            <div class="sub_image"><img src="https://cdn.pixabay.com/photo/2016/01/19/14/56/woman-1149088_1280.jpg"
-                alt=""></div>
-            <div class="inner">
-              <p>2021.01.01</p>
-              <h3>タイトルをここに入力タイトルをここに入力タイトルをここに入力</h3>
-            </div>
-          </a>
-        </div>
-      </section>
-
-    </div>
   </article>
