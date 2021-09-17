@@ -69,34 +69,34 @@ column_1_ptn_001
 }
 
 /* ----------------------------------------------------------------------
-cont_parts_y_011
+cont_ty_011
 ---------------------------------------------------------------------- */
-.cont_parts_y_011 {
+.cont_ty_011 {
   padding-top: 100px;
 }
 
 @media (max-width: 600px) {
-  .cont_parts_y_011 {
+  .cont_ty_011 {
     padding-top: 64px;
   }
 }
 
-.cont_parts_y_011 .wrapper {
+.cont_ty_011 .wrapper {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
 
 @media (max-width: 800px) {
-  .cont_parts_y_011 .wrapper {
+  .cont_ty_011 .wrapper {
     grid-template-columns: repeat(1, 1fr);
   }
 }
 
-.cont_parts_y_011 .wrapper section {
+.cont_ty_011 .wrapper section {
   position: relative;
 }
 
-.cont_parts_y_011 .wrapper section .main_image::before {
+.cont_ty_011 .wrapper section .main_image::before {
   content: "";
   position: absolute;
   top: 0px;
@@ -108,19 +108,19 @@ cont_parts_y_011
   opacity: 0.1;
 }
 
-.cont_parts_y_011 .wrapper section .main_image img {
+.cont_ty_011 .wrapper section .main_image img {
   width: 100%;
   height: 560px;
   object-fit: cover;
 }
 
 @media (max-width: 800px) {
-  .cont_parts_y_011 .wrapper section .main_image img {
+  .cont_ty_011 .wrapper section .main_image img {
     height: 360px;
   }
 }
 
-.cont_parts_y_011 .wrapper section h2 {
+.cont_ty_011 .wrapper section h2 {
   position: absolute;
   top: 0px;
   left: 0px;
@@ -138,7 +138,7 @@ cont_parts_y_011
 }
 
 @media (max-width: 1050px) {
-  .cont_parts_y_011 .wrapper section h2 {
+  .cont_ty_011 .wrapper section h2 {
     padding: 0 16px;
     width: 112px;
     height: 112px;
@@ -146,13 +146,13 @@ cont_parts_y_011
 }
 
 @media (max-width: 800px) {
-  .cont_parts_y_011 .wrapper section h2 {
+  .cont_ty_011 .wrapper section h2 {
     padding: 0 24px;
     font-size: 14px;
   }
 }
 
-.cont_parts_y_011 .wrapper section .cont_parts_y_011_slider {
+.cont_ty_011 .wrapper section .cont_parts_y_011_slider {
   position: absolute;
   bottom: 40px;
   left: 50%;
@@ -163,26 +163,26 @@ cont_parts_y_011
 }
 
 @media (max-width: 800px) {
-  .cont_parts_y_011 .wrapper section .cont_parts_y_011_slider {
+  .cont_ty_011 .wrapper section .cont_parts_y_011_slider {
     bottom: 20px;
     height: auto;
   }
 }
 
-.cont_parts_y_011 .wrapper section .cont_parts_y_011_slider a {
+.cont_ty_011 .wrapper section .cont_parts_y_011_slider a {
   margin: 0 5px;
   display: flex !important;
 }
 
-.cont_parts_y_011 .wrapper section .cont_parts_y_011_slider a:hover img {
+.cont_ty_011 .wrapper section .cont_parts_y_011_slider a:hover img {
   transform: scale(1.2);
 }
 
-.cont_parts_y_011 .wrapper section .cont_parts_y_011_slider a:hover .inner {
+.cont_ty_011 .wrapper section .cont_parts_y_011_slider a:hover .inner {
   color: #e1e1e1;
 }
 
-.cont_parts_y_011 .wrapper section .cont_parts_y_011_slider a .sub_image {
+.cont_ty_011 .wrapper section .cont_parts_y_011_slider a .sub_image {
   width: 124px;
   border: 8px solid #fff;
   overflow: hidden;
@@ -190,13 +190,13 @@ cont_parts_y_011
 }
 
 @media (max-width: 800px) {
-  .cont_parts_y_011 .wrapper section .cont_parts_y_011_slider a .sub_image {
+  .cont_ty_011 .wrapper section .cont_parts_y_011_slider a .sub_image {
     width: 100px;
     height: 100px;
   }
 }
 
-.cont_parts_y_011 .wrapper section .cont_parts_y_011_slider a .sub_image img {
+.cont_ty_011 .wrapper section .cont_parts_y_011_slider a .sub_image img {
   width: 100%;
   height: 100%;
   display: block;
@@ -204,34 +204,34 @@ cont_parts_y_011
   transition: 0.5s;
 }
 
-.cont_parts_y_011 .wrapper section .cont_parts_y_011_slider a .inner {
+.cont_ty_011 .wrapper section .cont_parts_y_011_slider a .inner {
   padding: 24px 0 0 16px;
   width: calc(100% - 124px);
   color: #fff;
 }
 
 @media (max-width: 700px) {
-  .cont_parts_y_011 .wrapper section .cont_parts_y_011_slider a .inner {
+  .cont_ty_011 .wrapper section .cont_parts_y_011_slider a .inner {
     width: calc(100% - 100px);
     padding: 0 0 0 16px;
   }
 }
 
-.cont_parts_y_011 .wrapper section .cont_parts_y_011_slider a .inner p {
+.cont_ty_011 .wrapper section .cont_parts_y_011_slider a .inner p {
   margin-bottom: 10px;
   font-size: 14px;
 }
 
-.cont_parts_y_011 .wrapper section .cont_parts_y_011_slider a .inner h3 {
+.cont_ty_011 .wrapper section .cont_parts_y_011_slider a .inner h3 {
   line-height: 1.5;
   font-size: 14px;
 }
 
-.cont_parts_y_011 .wrapper section:nth-of-type(1) h2 {
+.cont_ty_011 .wrapper section:nth-of-type(1) h2 {
   background: linear-gradient(to bottom, #244603 0%, rgba(36, 70, 3, 0) 100%);
 }
 
-.cont_parts_y_011 .wrapper section:nth-of-type(2) h2 {
+.cont_ty_011 .wrapper section:nth-of-type(2) h2 {
   background: linear-gradient(to bottom, #a16b85 0%, rgba(161, 107, 133, 0) 100%);
 }
 
