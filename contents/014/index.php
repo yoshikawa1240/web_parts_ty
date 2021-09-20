@@ -1,5 +1,5 @@
-<link rel="stylesheet" href="<?php echo $home_url; ?>/web_parts_ty/contents/014/css/style.min.css" );>
 <link rel="stylesheet" href="<?php echo $home_url; ?>/web_parts_ty/contents/014/css/reset.min.css" );>
+<link rel="stylesheet" href="<?php echo $home_url; ?>/web_parts_ty/contents/014/css/style.min.css" );>
 
   <!-------------- 
     cont_ty_014
