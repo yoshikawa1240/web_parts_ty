@@ -1,25 +1,16 @@
-<!DOCTYPE html>
-<html lang="ja">
+<link rel="stylesheet" href="<?php echo $home_url; ?>/web_parts_ty/first_view/003/css/reset.min.css" );>
+<link rel="stylesheet" href="<?php echo $home_url; ?>/web_parts_ty/first_view/003/css/style.min.css" );>
+<link rel="stylesheet" href="<?php echo $home_url; ?>/web_parts_ty/first_view/003/css/loading.min.css" );>
+<link rel="stylesheet" href="<?php echo $home_url; ?>/web_parts_ty/first_view/003/css/animation.min.css" );>
+<!-- jQuery_CDN -->
+<script src="https://code.jquery.com/jquery-3.6.0.js"integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<!-- base.js -->
+<script src="<?php echo $home_url; ?>/web_parts_ty/first_view/003/js/base.js" );></script>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- これは最後に必ず外す -->
-  <meta name=”robots” content=”noindex”>
-  <title>demo_004</title>
-  <link rel="stylesheet" href="./css/reset.css">
-  <link rel="stylesheet" href="./css/style.css?v=1.0.1">
-  <!-- アニメーション -->
-  <link rel="stylesheet" href="./css/animation.css">
-  <!-- ローディングアニメーション -->
-  <link rel="stylesheet" href="./css/loading.css?v=1.0.5">
-  <!-- GoogleFont -->
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200;500;700;900&display=swap"
-    rel="stylesheet">
-</head>
 
-<body>
+<!-------------- 
+  fv_ty_003
+  ---------------->
   <!-- loading_display -->
   <div id="loading">
     <div class="spinner">
@@ -36,7 +27,7 @@
     <!-- header -->
     <header class="hdr">
       <!-- logo -->
-      <h1><a class="logo">ここはロゴ
+      <h1><a href="" class="logo">ここはロゴ
         </a></h1>
       <!-- pc_menu -->
       <nav class="nav_pc">
@@ -86,57 +77,22 @@
         <span>ここにサブタイトルを入力</span>
         <a href="#" class="link_contact">ここはお問い合わせボタン</a>
       </div>
+      <!-- scroll_down -->
+      <div class="scroll_down fade_up_02">
+        <span class="arrow"></span>
+        <span class="arrow"></span>
+        <span class="arrow"></span>
+        <span class="text">Scroll</span>
+      </div>
     </div>
+  </div>
 
     <!-- グラデーションボタンをホバーで変化させたい場合 ⬇︎ -->
     <!-- https://junpei-sugiyama.com/background-image-transition/ -->
 
-    <!-- scroll_down -->
-    <div class="scroll_down fade_up_02">
-      <span class="arrow"></span>
-      <span class="arrow"></span>
-      <span class="arrow"></span>
-      <span class="text">Scroll</span>
-    </div>
-  </div>
-
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-
+    
 
   <!----------------------------------------- 
     page_top
     ------------------------------------------>
   <div id="page_top"><a href="#"></a></div>
-
-  <!-- jQuery -->
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-  <!-- slick -->
-  <script src="./js/slick.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.min.js"></script>
-  <!-- base -->
-  <script src="./js/base.js"></script>
-
-
-</body>
-
-</html>

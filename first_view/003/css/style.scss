@@ -1,14 +1,18 @@
-/*----------------------------------------- 
-  header_main
-  ------------------------------------------*/
+/*-------------- 
+  fv_ty_003
+  ----------------*/
 .wrapper {
   position: relative;
   margin: 0 auto;
   max-width: 1366px;
-  overflow: hidden;
+  height: 767px;
   background: #202020;
-  
-  // heder
+  overflow: hidden;
+  @media (max-width: 1250px) {
+    width: 100%;
+    height: 600px;
+  }
+  // header
   .hdr {
     position: fixed;
     top: 10px;
@@ -55,7 +59,6 @@
             font-weight: bold;
             font-size: 16px;
             color: #fff;
-            cursor: pointer;
             @media (max-width: 1250px) {
               margin-left: 20px;
               font-size: 14px;
@@ -306,25 +309,21 @@
               border-radius: 50%;
             }
             &::after {
-              opacity: 1;
-              visibility: visible;
-              left: auto;
               content: "";
               position: absolute;
               top: 0;
               bottom: 0;
+              left: auto;
               right: 18px;
-              // z-index: 100;
               margin: auto;
-              // display: flex;
-              // justify-content: center;
-              // align-items: center;
               width: 0;
               height: 0;
               border-left: 5px solid #fff;
               border-top: 5px solid transparent;
               border-bottom: 5px solid transparent;
               background: none;
+              visibility: visible;
+              opacity: 1;
             }
           }
         }
@@ -339,16 +338,14 @@
   // first_view
   .fv {
     position: relative;
-    // max-width: 1113px;
-    // margin: 0 auto;
-    &::before{
-      content: '';
+    &::before {
+      content: "";
       position: absolute;
       top: 0;
       left: 0;
-      z-index: 100;
+      z-index: 1;
       background: #333;
-      opacity: .5;
+      opacity: 0.5;
       width: 100%;
       height: 100%;
     }
@@ -399,18 +396,18 @@
         }
       }
       .fv_title_sp {
-        letter-spacing: 0.05em;
-        font-size: 32px;
         margin-bottom: 15px;
-        line-height: 1.57;
         display: none;
+        letter-spacing: 0.05em;
+        line-height: 1.57;
+        font-size: 32px;
         @media (max-width: 768px) {
           display: block;
         }
       }
       span {
-        display: block;
         margin-bottom: 70px;
+        display: block;
         line-height: 0.92;
         font-size: 25px;
         font-weight: bold;
@@ -418,27 +415,25 @@
           font-size: 18px;
         }
         @media (max-width: 768px) {
-          font-size: 14px;
           margin-bottom: 50px;
+          font-size: 14px;
         }
       }
       a {
         position: relative;
         padding: 0;
-        height: 43px;
         max-width: 328px;
+        height: 43px;
         display: flex;
         justify-content: center;
         align-items: center;
+        background-image: linear-gradient(180deg, #0090ff 35%, #a008ff 100%);
+        border: none;
         border-radius: 5px;
         line-height: 1.42;
         font-weight: bold;
         font-size: 14px;
         color: #fff;
-        border: none;
-        background: #0090ff;
-        background-color: #6284ff;
-        background-image: linear-gradient(180deg, #0090ff 35%, #a008ff 100%);
         &::before {
           content: "";
           position: absolute;
@@ -458,11 +453,11 @@
           bottom: 0;
           right: 18px;
           margin: auto;
+          width: 0;
+          height: 0;
           display: flex;
           justify-content: center;
           align-items: center;
-          width: 0;
-          height: 0;
           border-left: 5px solid #fff;
           border-top: 5px solid transparent;
           border-bottom: 5px solid transparent;
@@ -476,12 +471,11 @@
     bottom: 1%;
     right: 0;
     right: 5%;
-    // z-index: 1;
-    color: #fff;
-    height: 1px;
+    z-index: 10;
+    padding-top: 64px;
     height: auto;
     text-align: center;
-    padding-top: 64px;
+    color: #fff;
     @media (max-width: 1050px) {
       margin-left: auto;
       padding-top: 56px;
@@ -499,9 +493,8 @@
       -webkit-transform: rotate(-45deg);
       transform: rotate(-45deg);
       -webkit-animation: sdb 2s infinite;
-      animation: sdb 2s infinite;
       opacity: 0;
-      box-sizing: border-box;
+      animation: sdb 2s infinite;
       @media (max-width: 768px) {
         width: 12px;
         height: 12px;
