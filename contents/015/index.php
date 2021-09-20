@@ -2,9 +2,9 @@
 <link rel="stylesheet" href="<?php echo $home_url; ?>/web_parts_ty/contents/015/css/reset.min.css" );>
 
   <!----------------------------------------- 
-  top_plan
+  cont_ty_015
   ------------------------------------------>
-  <article class="top_plan">
+  <article class="cont_ty_015">
     <header>
       <h1>料金プラン</h1>
       <p>料金は参考価格となります。個別にお見積りが可能ですので、お気軽にお問い合わせください。</p>

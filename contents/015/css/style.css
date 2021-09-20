@@ -1,7 +1,7 @@
 /*----------------------------------------- 
-  top_plan
+  cont_ty_015
   ------------------------------------------*/
-.top_plan {
+.cont_ty_015 {
   padding: 0 24px;
   padding-top: 100px;
   background: #000000;
@@ -9,23 +9,23 @@
 }
 
 @media (max-width: 600px) {
-  .top_plan {
+  .cont_ty_015 {
     padding-top: 64px;
   }
 }
 
-.top_plan header {
+.cont_ty_015 header {
   margin-bottom: 64px;
   text-align: center;
 }
 
 @media (max-width: 600px) {
-  .top_plan header {
+  .cont_ty_015 header {
     margin-bottom: 32px;
   }
 }
 
-.top_plan header h1 {
+.cont_ty_015 header h1 {
   position: relative;
   margin-bottom: 56px;
   padding-bottom: 24px;
@@ -35,7 +35,7 @@
 }
 
 @media (max-width: 600px) {
-  .top_plan header h1 {
+  .cont_ty_015 header h1 {
     position: relative;
     margin: 0 auto;
     margin-bottom: 24px;
@@ -45,7 +45,7 @@
   }
 }
 
-.top_plan header h1::before {
+.cont_ty_015 header h1::before {
   content: "";
   position: absolute;
   right: 0;
@@ -57,12 +57,12 @@
 }
 
 @media (max-width: 600px) {
-  .top_plan header h1::before {
+  .cont_ty_015 header h1::before {
     width: 80px;
   }
 }
 
-.top_plan header h1::after {
+.cont_ty_015 header h1::after {
   content: "";
   position: absolute;
   left: 25%;
@@ -73,29 +73,29 @@
 }
 
 @media (max-width: 600px) {
-  .top_plan header h1::after {
+  .cont_ty_015 header h1::after {
     left: 16%;
     width: 24px;
   }
 }
 
-.top_plan header p {
+.cont_ty_015 header p {
   text-align: center;
   line-height: 1.5;
   font-size: 16px;
 }
 
-.top_plan header p:nth-of-type(1) {
+.cont_ty_015 header p:nth-of-type(1) {
   margin-bottom: 10px;
 }
 
 @media (max-width: 600px) {
-  .top_plan header p {
+  .cont_ty_015 header p {
     font-size: 14px;
   }
 }
 
-.top_plan section {
+.cont_ty_015 section {
   margin: 0 auto;
   max-width: 960px;
   display: grid;
@@ -104,25 +104,25 @@
 }
 
 @media (max-width: 1050px) {
-  .top_plan section {
+  .cont_ty_015 section {
     padding: 0 80px;
     grid-template-columns: repeat(1, 1fr);
   }
 }
 
 @media (max-width: 600px) {
-  .top_plan section {
+  .cont_ty_015 section {
     padding: 0;
     grid-template-columns: repeat(1, 1fr);
   }
 }
 
-.top_plan section .outer {
+.cont_ty_015 section .outer {
   background: #fff;
   border-radius: 16px;
 }
 
-.top_plan section .outer h2 {
+.cont_ty_015 section .outer h2 {
   margin-bottom: 15px;
   padding: 15px 0;
   display: flex;
@@ -134,17 +134,17 @@
 }
 
 @media (max-width: 600px) {
-  .top_plan section .outer h2 {
+  .cont_ty_015 section .outer h2 {
     font-size: 20px;
   }
 }
 
-.top_plan section .outer .inner {
+.cont_ty_015 section .outer .inner {
   background: #fff;
   color: #000;
 }
 
-.top_plan section .outer .inner span {
+.cont_ty_015 section .outer .inner span {
   margin-bottom: 8px;
   display: block;
   text-align: center;
@@ -153,29 +153,29 @@
 }
 
 @media (max-width: 600px) {
-  .top_plan section .outer .inner span {
+  .cont_ty_015 section .outer .inner span {
     font-size: 28px;
   }
 }
 
-.top_plan section .outer .inner p {
+.cont_ty_015 section .outer .inner p {
   margin-bottom: 16px;
   text-align: center;
   line-height: 1.7;
   font-size: 14px;
 }
 
-.top_plan section .outer .inner ul {
+.cont_ty_015 section .outer .inner ul {
   padding: 0 64px;
 }
 
-.top_plan section .outer .inner ul li {
+.cont_ty_015 section .outer .inner ul li {
   position: relative;
   margin-bottom: 15px;
   font-size: 16px;
 }
 
-.top_plan section .outer .inner ul li::before {
+.cont_ty_015 section .outer .inner ul li::before {
   content: "";
   position: absolute;
   top: 0;
@@ -188,26 +188,26 @@
   border-radius: 50%;
 }
 
-.top_plan section .outer:nth-of-type(1) h2 {
+.cont_ty_015 section .outer:nth-of-type(1) h2 {
   background: #5e2242;
 }
 
-.top_plan section .outer:nth-of-type(1) .inner ul li::before {
+.cont_ty_015 section .outer:nth-of-type(1) .inner ul li::before {
   background: #ff5cb3;
 }
 
-.top_plan section .outer:nth-of-type(2) h2 {
+.cont_ty_015 section .outer:nth-of-type(2) h2 {
   background: #585e22;
 }
 
-.top_plan section .outer:nth-of-type(2) .inner ul li::before {
+.cont_ty_015 section .outer:nth-of-type(2) .inner ul li::before {
   background: #efff5c;
 }
 
-.top_plan section .outer:nth-of-type(3) h2 {
+.cont_ty_015 section .outer:nth-of-type(3) h2 {
   background: #22325e;
 }
 
-.top_plan section .outer:nth-of-type(3) .inner ul li::before {
+.cont_ty_015 section .outer:nth-of-type(3) .inner ul li::before {
   background: #5c88ff;
 }
