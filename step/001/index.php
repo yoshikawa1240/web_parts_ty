@@ -1,32 +1,10 @@
-<!DOCTYPE html>
-<html lang="ja">
+<link rel="stylesheet" href="<?php echo $home_url; ?>/web_parts_ty/step/001/css/style.min.css" );>
+<link rel="stylesheet" href="<?php echo $home_url; ?>/web_parts_ty/step/001/css/reset.min.css" );>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- これは最後に必ず外す -->
-  <meta name=”robots” content=”noindex”>
-  <title>demo_004</title>
-  <link rel="stylesheet" href="./css/reset.css">
-  <link rel="stylesheet" href="./css/style.css?v=1.0.1">
-  <!-- GoogleFont -->
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200;500;700;900&display=swap"
-    rel="stylesheet">
-</head>
-
-<body>
-  
-
-  <!----------------------------------------- 
-    main
-    ------------------------------------------>
-  <main>
-    
     <!----------------------------------------- 
-    top_flow
+    step_ty_001
     ------------------------------------------>
-    <article id="flow" class="top_flow text_in_07s">
+    <article class="step_ty_001">
       <header>
         <h1>ご利用の流れ</h1>
         <p>ご利用の流れをご紹介しています。無料相談や無料お見積りも承っておりますのでお気軽にご相談ください。</p>
