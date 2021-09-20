@@ -24,7 +24,7 @@
       font-size: 48px;
       @media (max-width: 600px) {
         margin-bottom: 24px;
-        font-size: 26px;
+        font-size: 24px;
       }
       &::before {
         content: "";
@@ -33,7 +33,7 @@
         left: 0;
         bottom: 0;
         margin: auto;
-        width: 118px;
+        width: 116px;
         border-bottom: 3px solid #4822ff;
       }
       &::after {
@@ -42,7 +42,7 @@
         left: 30%;
         bottom: 0;
         margin: auto;
-        width: 30px;
+        width: 32px;
         border-bottom: 3px solid #c9c9c9;
         @media (max-width: 600px) {
           left: 12%;
