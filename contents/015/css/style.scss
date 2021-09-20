@@ -1,0 +1,186 @@
+/*----------------------------------------- 
+  top_plan
+  ------------------------------------------*/
+.top_plan {
+  padding: 0 24px;
+  padding-top: 100px;
+  background: #000000;
+  color: #fff;
+  @media (max-width: 600px) {
+    padding-top: 64px;
+  }
+  header {
+    margin-bottom: 64px;
+    text-align: center;
+    @media (max-width: 600px) {
+      margin-bottom: 32px;
+    }
+    h1 {
+      position: relative;
+      margin-bottom: 56px;
+      padding-bottom: 24px;
+      display: inline-block;
+      line-height: 1.5;
+      font-size: 48px;
+      @media (max-width: 600px) {
+        position: relative;
+        margin: 0 auto;
+        margin-bottom: 24px;
+        padding-bottom: 24px;
+        line-height: 1.5;
+        font-size: 24px;
+      }
+      &::before {
+        content: "";
+        position: absolute;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        margin: auto;
+        width: 116px;
+        border-bottom: 3px solid #4822ff;
+        @media (max-width: 600px) {
+          width: 80px;
+        }
+      }
+      &::after {
+        content: "";
+        position: absolute;
+        left: 25%;
+        bottom: 0;
+        margin: auto;
+        width: 32px;
+        border-bottom: 3px solid #c9c9c9;
+        @media (max-width: 600px) {
+          left: 16%;
+          width: 24px;
+        }
+      }
+    }
+    p {
+      text-align: center;
+      line-height: 1.5;
+      font-size: 16px;
+      &:nth-of-type(1) {
+        margin-bottom: 10px;
+      }
+      @media (max-width: 600px) {
+        font-size: 14px;
+      }
+    }
+  }
+  section {
+    margin: 0 auto;
+    max-width: 960px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px 16px;
+    @media (max-width: 1050px) {
+      padding: 0 80px;
+      grid-template-columns: repeat(1, 1fr);
+    }
+    @media (max-width: 600px) {
+      padding: 0;
+      grid-template-columns: repeat(1, 1fr);
+    }
+    .outer {
+      background: #fff;
+      border-radius: 16px;
+      h2 {
+        margin-bottom: 15px;
+        padding: 15px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border-radius: 14px 14px 0 0;
+        font-size: 24px;
+        @media (max-width: 600px) {
+          font-size: 20px;
+        }
+      }
+      .inner {
+        background: #fff;
+        color: #000;
+        span {
+          margin-bottom: 8px;
+          display: block;
+          text-align: center;
+          font-size: 32px;
+          font-weight: bold;
+          @media (max-width: 600px) {
+            font-size: 28px;
+          }
+        }
+        p {
+          margin-bottom: 16px;
+          text-align: center;
+          line-height: 1.7;
+          font-size: 14px;
+        }
+        ul {
+          padding: 0 64px;
+          li {
+            position: relative;
+            margin-bottom: 15px;
+            font-size: 16px;
+            &::before {
+              content: "";
+              position: absolute;
+              top: 0;
+              bottom: 0;
+              left: -24px;
+              margin: auto;
+              width: 12px;
+              height: 12px;
+              background: #000;
+              border-radius: 50%;
+            }
+          }
+        }
+      }
+      &:nth-of-type(1) {
+        h2 {
+          background: #5e2242;
+        }
+        .inner {
+          ul {
+            li {
+              &::before {
+                background: #ff5cb3;
+              }
+            }
+          }
+        }
+      }
+      &:nth-of-type(2) {
+        h2 {
+          background: #585e22;
+        }
+        .inner {
+          ul {
+            li {
+              &::before {
+                background: #efff5c;
+              }
+            }
+          }
+        }
+      }
+      &:nth-of-type(3) {
+        h2 {
+          background: #22325e;
+        }
+        .inner {
+          ul {
+            li {
+              &::before {
+                background: #5c88ff;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
