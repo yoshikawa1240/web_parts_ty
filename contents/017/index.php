@@ -1,37 +1,16 @@
-<!DOCTYPE html>
-<html lang="ja">
+<link rel="stylesheet" href="<?php echo $home_url; ?>/web_parts_ty/contents/017/css/reset.min.css" );>
+<link rel="stylesheet" href="<?php echo $home_url; ?>/web_parts_ty/contents/017/css/style.min.css" );>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- これは最後に必ず外す -->
-  <meta name=”robots” content=”noindex”>
-  <title>demo_004</title>
-  <link rel="stylesheet" href="./css/reset.css">
-  <link rel="stylesheet" href="./css/style.css?v=1.0.1">
-  <!-- GoogleFont -->
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200;500;700;900&display=swap"
-    rel="stylesheet">
-</head>
-
-<body>
-
-
-  <!----------------------------------------- 
-    main
-    ------------------------------------------>
-  <main>
-    <!----------------------------------------- 
-    top_price
-    ------------------------------------------>
-    <article id="price" class="top_price text_in_07s">
+  <!-------------- 
+    cont_ty_017
+  ---------------->
+    <article class="cont_ty_017">
       <header>
         <h1>○◯◯◯の料金</h1>
         <p>※プランはサイトの状況に合わせて変更可能です。</p>
       </header>
       <!-- ===== 表＿PC ===== -->
-      <section class="pc text_in_1s">
+      <section class="pc">
         <div class="outer">
           <ul>
             <li>ベーシックプラン<span>ここにベーシックプランの説明を入力。</span></li>
@@ -103,7 +82,7 @@
         </dl>
       </section>
       <!-- ===== 表＿SP ===== -->
-      <section class="sp text_in_1s">
+      <section class="sp">
         <dl>
           <div class="inner">
             <h2>リスト01</h2>
@@ -257,13 +236,5 @@
           </div>
         </dl>
       </section>
-      <div class="free_consultation link_contact"><a href="#">無料で相談する</a></div>
+      <div class="free_consultation"><a href="#">無料で相談する</a></div>
     </article>
-
-
-
-
-
-</body>
-
-</html>
